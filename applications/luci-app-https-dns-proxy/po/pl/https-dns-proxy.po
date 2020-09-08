@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2020-09-01 02:24+0000\n"
+"PO-Revision-Date: 2020-06-08 11:55+0000\n"
 "Last-Translator: Marcin Net <marcin.net@linux.pl>\n"
 "Language-Team: Polish <https://hosted.weblate.org/projects/openwrt/"
 "luciapplicationshttps-dns-proxy/pl/>\n"
@@ -9,27 +9,23 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.2.1-dev\n"
+"X-Generator: Weblate 4.1-dev\n"
 
 #: applications/luci-app-https-dns-proxy/luasrc/model/cbi/https-dns-proxy.lua:72
 msgid "%s is not installed or not found"
-msgstr "%s nie jest zainstalowany lub nie znaleziono"
+msgstr "%s nie jest zainstalowany lub nie został znaleziony"
 
 #: applications/luci-app-https-dns-proxy/luasrc/https-dns-proxy/providers/com.adguard.dns-family.lua:3
 msgid "AdGuard (Family Protection)"
-msgstr "AdGuard (filtr rodzinny)"
+msgstr "AdGuard (Ochrona rodzinna)"
 
 #: applications/luci-app-https-dns-proxy/luasrc/https-dns-proxy/providers/com.adguard.dns.lua:3
 msgid "AdGuard (Standard)"
-msgstr "AdGuard (standardowy)"
-
-#: applications/luci-app-https-dns-proxy/luasrc/https-dns-proxy/providers/com.alidns.dns.lua:3
-msgid "AliDNS"
-msgstr "AliDNS"
+msgstr "AdGuard (Standardowy)"
 
 #: applications/luci-app-https-dns-proxy/luasrc/https-dns-proxy/providers/ca.cira.canadianshield.family.lua:3
 msgid "CIRA Canadian Shield (Family)"
-msgstr "Tarcza Kanadyjska CIRA (filtr rodzinny)"
+msgstr "Tarcza Kanadyjska CIRA (rodzina)"
 
 #: applications/luci-app-https-dns-proxy/luasrc/https-dns-proxy/providers/ca.cira.canadianshield.private.lua:3
 msgid "CIRA Canadian Shield (Private)"
@@ -41,15 +37,15 @@ msgstr "Tarcza Kanadyjska CIRA (chroniona)"
 
 #: applications/luci-app-https-dns-proxy/luasrc/https-dns-proxy/providers/org.cleanbrowsing.doh-adult.lua:3
 msgid "CleanBrowsing (Adult Filter)"
-msgstr "CleanBrowsing (filtr rodzinny)"
+msgstr "CleanBrowsing (Filtr treści dla dorosłych)"
 
 #: applications/luci-app-https-dns-proxy/luasrc/https-dns-proxy/providers/org.cleanbrowsing.doh-family.lua:3
 msgid "CleanBrowsing (Family Filter)"
-msgstr "CleanBrowsing (filtr rodzinny)"
+msgstr "CleanBrowsing (Filtr rodzinny)"
 
 #: applications/luci-app-https-dns-proxy/luasrc/https-dns-proxy/providers/org.cleanbrowsing.doh-security.lua:3
 msgid "CleanBrowsing (Security Filter)"
-msgstr "CleanBrowsing (filtr bezpieczeństwa)"
+msgstr "CleanBrowsing (Filtr bezpieczeństwa)"
 
 #: applications/luci-app-https-dns-proxy/luasrc/https-dns-proxy/providers/com.cloudflare-dns.lua:3
 msgid "Cloudflare"
@@ -57,11 +53,11 @@ msgstr "Cloudflare"
 
 #: applications/luci-app-https-dns-proxy/luasrc/https-dns-proxy/providers/com.cloudflare-dns.family.lua:3
 msgid "Cloudflare (Family Protection)"
-msgstr "Cloudflare (filtr rodzinny)"
+msgstr "Cloudflare (Ochrona Rodziny)"
 
 #: applications/luci-app-https-dns-proxy/luasrc/https-dns-proxy/providers/com.cloudflare-dns.security.lua:3
 msgid "Cloudflare (Security Protection)"
-msgstr "Cloudflare (filtr bezpieczeństwa)"
+msgstr "Cloudflare (Ochrona Bezpieczeństwa)"
 
 #: applications/luci-app-https-dns-proxy/luasrc/controller/https-dns-proxy.lua:4
 msgid "DNS HTTPS Proxy"
@@ -74,10 +70,6 @@ msgstr "Ustawienia DNS HTTPS Proxy"
 #: applications/luci-app-https-dns-proxy/luasrc/https-dns-proxy/providers.disabled/sb.dns.lua:3
 msgid "DNS.SB"
 msgstr "DNS.SB"
-
-#: applications/luci-app-https-dns-proxy/luasrc/https-dns-proxy/providers/pub.doh.lua:3
-msgid "DNSPod.cn Public DNS"
-msgstr "DNSPod.cn Publiczny DNS"
 
 #: applications/luci-app-https-dns-proxy/luasrc/https-dns-proxy/providers.disabled/ch.digitale-gesellschaft.dns.lua:3
 msgid "Digitale Gesellschaft"
@@ -93,7 +85,7 @@ msgstr "Włącz"
 
 #: applications/luci-app-https-dns-proxy/luasrc/model/cbi/https-dns-proxy.lua:27
 msgid "For more information on different options check"
-msgstr "Aby uzyskać więcej informacji o różnych opcjach, sprawdź"
+msgstr "Aby uzyskać więcej informacji na temat różnych opcji, sprawdź"
 
 #: applications/luci-app-https-dns-proxy/luasrc/https-dns-proxy/providers/google.dns.lua:3
 msgid "Google"
@@ -131,33 +123,25 @@ msgstr "Ładowanie"
 msgid "ODVR (nic.cz)"
 msgstr "ODVR (nic.cz)"
 
-#: applications/luci-app-https-dns-proxy/luasrc/https-dns-proxy/providers/com.opendns.doh.lua:3
-msgid "OpenDNS"
-msgstr "OpenDNS"
-
-#: applications/luci-app-https-dns-proxy/luasrc/https-dns-proxy/providers/com.opendns.familyshield.doh.lua:3
-msgid "OpenDNS (Family Shield)"
-msgstr "OpenDNS (filtr rodzinny)"
-
 #: applications/luci-app-https-dns-proxy/luasrc/model/cbi/https-dns-proxy.lua:177
 msgid "Proxy server"
 msgstr "Serwer proxy"
 
 #: applications/luci-app-https-dns-proxy/luasrc/https-dns-proxy/providers/net.quad9.dns.lua:3
 msgid "Quad 9 (Recommended)"
-msgstr "Quad 9 (zalecany)"
+msgstr "Quad 9 (Zalecane)"
 
 #: applications/luci-app-https-dns-proxy/luasrc/https-dns-proxy/providers/net.quad9.dns11.lua:3
 msgid "Quad 9 (Secured with ECS Support)"
-msgstr "Quad 9 (zabezpieczony z obsługą ECS)"
+msgstr "Quad 9 (Zabezpieczony z obsługą ECS)"
 
 #: applications/luci-app-https-dns-proxy/luasrc/https-dns-proxy/providers/net.quad9.dns9.lua:3
 msgid "Quad 9 (Secured)"
-msgstr "Quad 9 (zabezpieczony)"
+msgstr "Quad 9 (Zabezpieczony)"
 
 #: applications/luci-app-https-dns-proxy/luasrc/https-dns-proxy/providers/net.quad9.dns10.lua:3
 msgid "Quad 9 (Unsecured)"
-msgstr "Quad 9 (niezabezpieczony)"
+msgstr "Quad 9 (Niezabezpieczony)"
 
 #: applications/luci-app-https-dns-proxy/luasrc/view/https-dns-proxy/buttons.htm:44
 msgid "Reload"
@@ -200,8 +184,8 @@ msgid ""
 "When you add/remove any instances below, they will be used to override the "
 "'DNS forwardings' section of %sDHCP and DNS%s."
 msgstr ""
-"Po dodaniu/usunięciu instancji, zostaną one użyte do nadpisania "
-"'Przekazywania DNS' w sekcji %sDHCP i DNS%s."
+"Po dodaniu/usunięciu poniższych instancji, zostaną one użyte do nadpisania "
+"sekcji 'Przekierowania DNS' %sDHCP i DNS%s."
 
 #: applications/luci-app-https-dns-proxy/luasrc/model/cbi/https-dns-proxy.lua:48
 msgid "and"
@@ -214,9 +198,6 @@ msgstr "wyłączony"
 #: applications/luci-app-https-dns-proxy/luasrc/https-dns-proxy/providers.disabled/cn.rubyfish.dns.lua:3
 msgid "rubyfish.cn"
 msgstr "rubyfish.cn"
-
-#~ msgid "Alidns"
-#~ msgstr "Alidns"
 
 #~ msgid "EDNS client subnet"
 #~ msgstr "Podsieć klienta EDNS"

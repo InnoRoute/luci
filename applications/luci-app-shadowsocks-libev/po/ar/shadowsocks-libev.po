@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2020-07-10 10:42+0000\n"
+"PO-Revision-Date: 2020-07-09 06:17+0000\n"
 "Last-Translator: Mohammed Abu Hassan <medo94125@gmail.com>\n"
 "Language-Team: Arabic <https://hosted.weblate.org/projects/openwrt/"
 "luciapplicationsshadowsocks-libev/ar/>\n"
@@ -15,12 +15,16 @@ msgstr ""
 msgid "-- instance type --"
 msgstr ""
 
-#: applications/luci-app-shadowsocks-libev/htdocs/luci-static/resources/shadowsocks-libev.js:225
+#: applications/luci-app-shadowsocks-libev/htdocs/luci-static/resources/shadowsocks-libev.js:212
 msgid "<hidden>"
 msgstr ""
 
 #: applications/luci-app-shadowsocks-libev/htdocs/luci-static/resources/view/shadowsocks-libev/instances.js:78
 msgid "Advanced Settings"
+msgstr ""
+
+#: applications/luci-app-shadowsocks-libev/htdocs/luci-static/resources/view/shadowsocks-libev/instances.js:88
+msgid "Bind address"
 msgstr ""
 
 #: applications/luci-app-shadowsocks-libev/htdocs/luci-static/resources/view/shadowsocks-libev/rules.js:88
@@ -73,7 +77,7 @@ msgstr ""
 msgid "Disable"
 msgstr ""
 
-#: applications/luci-app-shadowsocks-libev/htdocs/luci-static/resources/view/shadowsocks-libev/instances.js:139
+#: applications/luci-app-shadowsocks-libev/htdocs/luci-static/resources/view/shadowsocks-libev/instances.js:130
 msgid "Disabled"
 msgstr ""
 
@@ -97,23 +101,23 @@ msgstr ""
 msgid "Dst ip/net forward file"
 msgstr ""
 
-#: applications/luci-app-shadowsocks-libev/htdocs/luci-static/resources/shadowsocks-libev.js:195
+#: applications/luci-app-shadowsocks-libev/htdocs/luci-static/resources/shadowsocks-libev.js:182
 msgid "Enable SO_REUSEPORT"
 msgstr ""
 
-#: applications/luci-app-shadowsocks-libev/htdocs/luci-static/resources/shadowsocks-libev.js:193
+#: applications/luci-app-shadowsocks-libev/htdocs/luci-static/resources/shadowsocks-libev.js:180
 msgid "Enable TCP Fast Open"
 msgstr ""
 
-#: applications/luci-app-shadowsocks-libev/htdocs/luci-static/resources/shadowsocks-libev.js:194
+#: applications/luci-app-shadowsocks-libev/htdocs/luci-static/resources/shadowsocks-libev.js:181
 msgid "Enable TCP_NODELAY"
 msgstr ""
 
-#: applications/luci-app-shadowsocks-libev/htdocs/luci-static/resources/view/shadowsocks-libev/instances.js:132
+#: applications/luci-app-shadowsocks-libev/htdocs/luci-static/resources/view/shadowsocks-libev/instances.js:123
 msgid "Enable/Disable"
 msgstr ""
 
-#: applications/luci-app-shadowsocks-libev/htdocs/luci-static/resources/view/shadowsocks-libev/instances.js:142
+#: applications/luci-app-shadowsocks-libev/htdocs/luci-static/resources/view/shadowsocks-libev/instances.js:133
 msgid "Enabled"
 msgstr "ممكّن"
 
@@ -157,13 +161,13 @@ msgstr ""
 msgid "Grant service list access to LuCI app shadowsocks-libev"
 msgstr ""
 
-#: applications/luci-app-shadowsocks-libev/htdocs/luci-static/resources/shadowsocks-libev.js:192
+#: applications/luci-app-shadowsocks-libev/htdocs/luci-static/resources/shadowsocks-libev.js:179
 msgid "IPv6 First"
 msgstr ""
 
 #: applications/luci-app-shadowsocks-libev/htdocs/luci-static/resources/view/shadowsocks-libev/servers.js:51
 msgid "Import"
-msgstr "استيراد"
+msgstr ""
 
 #: applications/luci-app-shadowsocks-libev/htdocs/luci-static/resources/view/shadowsocks-libev/servers.js:22
 #: applications/luci-app-shadowsocks-libev/htdocs/luci-static/resources/view/shadowsocks-libev/servers.js:59
@@ -175,7 +179,7 @@ msgstr ""
 msgid "Ingress interfaces"
 msgstr ""
 
-#: applications/luci-app-shadowsocks-libev/htdocs/luci-static/resources/shadowsocks-libev.js:249
+#: applications/luci-app-shadowsocks-libev/htdocs/luci-static/resources/shadowsocks-libev.js:236
 msgid "Install package"
 msgstr ""
 
@@ -190,16 +194,8 @@ msgid ""
 "the instance itself and the remote server it refers to."
 msgstr ""
 
-#: applications/luci-app-shadowsocks-libev/htdocs/luci-static/resources/shadowsocks-libev.js:169
+#: applications/luci-app-shadowsocks-libev/htdocs/luci-static/resources/shadowsocks-libev.js:156
 msgid "Key (base64)"
-msgstr ""
-
-#: applications/luci-app-shadowsocks-libev/htdocs/luci-static/resources/view/shadowsocks-libev/instances.js:93
-msgid "Local IPv4 address"
-msgstr ""
-
-#: applications/luci-app-shadowsocks-libev/htdocs/luci-static/resources/view/shadowsocks-libev/instances.js:98
-msgid "Local IPv6 address"
 msgstr ""
 
 #: applications/luci-app-shadowsocks-libev/htdocs/luci-static/resources/view/shadowsocks-libev/instances.js:26
@@ -207,12 +203,11 @@ msgstr ""
 msgid "Local Instances"
 msgstr ""
 
-#: applications/luci-app-shadowsocks-libev/htdocs/luci-static/resources/shadowsocks-libev.js:127
-#: applications/luci-app-shadowsocks-libev/htdocs/luci-static/resources/view/shadowsocks-libev/instances.js:88
+#: applications/luci-app-shadowsocks-libev/htdocs/luci-static/resources/shadowsocks-libev.js:114
 msgid "Local address"
 msgstr ""
 
-#: applications/luci-app-shadowsocks-libev/htdocs/luci-static/resources/shadowsocks-libev.js:131
+#: applications/luci-app-shadowsocks-libev/htdocs/luci-static/resources/shadowsocks-libev.js:118
 msgid "Local port"
 msgstr ""
 
@@ -220,15 +215,15 @@ msgstr ""
 msgid "Local-out default"
 msgstr ""
 
-#: applications/luci-app-shadowsocks-libev/htdocs/luci-static/resources/shadowsocks-libev.js:185
+#: applications/luci-app-shadowsocks-libev/htdocs/luci-static/resources/shadowsocks-libev.js:172
 msgid "MTU"
 msgstr ""
 
-#: applications/luci-app-shadowsocks-libev/htdocs/luci-static/resources/shadowsocks-libev.js:160
+#: applications/luci-app-shadowsocks-libev/htdocs/luci-static/resources/shadowsocks-libev.js:147
 msgid "Method"
 msgstr ""
 
-#: applications/luci-app-shadowsocks-libev/htdocs/luci-static/resources/shadowsocks-libev.js:180
+#: applications/luci-app-shadowsocks-libev/htdocs/luci-static/resources/shadowsocks-libev.js:167
 msgid "Mode of operation"
 msgstr ""
 
@@ -246,11 +241,11 @@ msgstr ""
 msgid "Only apply rules on packets from these network interfaces"
 msgstr ""
 
-#: applications/luci-app-shadowsocks-libev/htdocs/luci-static/resources/view/shadowsocks-libev/instances.js:115
+#: applications/luci-app-shadowsocks-libev/htdocs/luci-static/resources/view/shadowsocks-libev/instances.js:106
 msgid "Overview"
-msgstr "نظرة عامة"
+msgstr ""
 
-#: applications/luci-app-shadowsocks-libev/htdocs/luci-static/resources/shadowsocks-libev.js:248
+#: applications/luci-app-shadowsocks-libev/htdocs/luci-static/resources/shadowsocks-libev.js:235
 msgid "Package is not installed"
 msgstr ""
 
@@ -258,19 +253,19 @@ msgstr ""
 msgid "Passes additional arguments to iptables. Use with care!"
 msgstr ""
 
-#: applications/luci-app-shadowsocks-libev/htdocs/luci-static/resources/shadowsocks-libev.js:165
+#: applications/luci-app-shadowsocks-libev/htdocs/luci-static/resources/shadowsocks-libev.js:152
 msgid "Password"
 msgstr ""
 
-#: applications/luci-app-shadowsocks-libev/htdocs/luci-static/resources/shadowsocks-libev.js:175
+#: applications/luci-app-shadowsocks-libev/htdocs/luci-static/resources/shadowsocks-libev.js:162
 msgid "Plugin"
 msgstr ""
 
-#: applications/luci-app-shadowsocks-libev/htdocs/luci-static/resources/shadowsocks-libev.js:177
+#: applications/luci-app-shadowsocks-libev/htdocs/luci-static/resources/shadowsocks-libev.js:164
 msgid "Plugin Options"
 msgstr ""
 
-#: applications/luci-app-shadowsocks-libev/htdocs/luci-static/resources/shadowsocks-libev.js:192
+#: applications/luci-app-shadowsocks-libev/htdocs/luci-static/resources/shadowsocks-libev.js:179
 msgid "Prefer IPv6 addresses when resolving names"
 msgstr ""
 
@@ -284,23 +279,23 @@ msgstr ""
 msgid "Remote Servers"
 msgstr ""
 
-#: applications/luci-app-shadowsocks-libev/htdocs/luci-static/resources/shadowsocks-libev.js:125
+#: applications/luci-app-shadowsocks-libev/htdocs/luci-static/resources/shadowsocks-libev.js:112
 msgid "Remote server"
 msgstr ""
 
-#: applications/luci-app-shadowsocks-libev/htdocs/luci-static/resources/shadowsocks-libev.js:189
+#: applications/luci-app-shadowsocks-libev/htdocs/luci-static/resources/shadowsocks-libev.js:176
 msgid "Run as"
 msgstr ""
 
-#: applications/luci-app-shadowsocks-libev/htdocs/luci-static/resources/view/shadowsocks-libev/instances.js:127
+#: applications/luci-app-shadowsocks-libev/htdocs/luci-static/resources/view/shadowsocks-libev/instances.js:118
 msgid "Running"
 msgstr ""
 
-#: applications/luci-app-shadowsocks-libev/htdocs/luci-static/resources/shadowsocks-libev.js:152
+#: applications/luci-app-shadowsocks-libev/htdocs/luci-static/resources/shadowsocks-libev.js:139
 msgid "Server"
 msgstr ""
 
-#: applications/luci-app-shadowsocks-libev/htdocs/luci-static/resources/shadowsocks-libev.js:156
+#: applications/luci-app-shadowsocks-libev/htdocs/luci-static/resources/shadowsocks-libev.js:143
 msgid "Server port"
 msgstr ""
 
@@ -328,31 +323,23 @@ msgstr ""
 msgid "Src ip/net forward"
 msgstr ""
 
-#: applications/luci-app-shadowsocks-libev/htdocs/luci-static/resources/view/shadowsocks-libev/instances.js:94
-msgid "The IPv4 address ss-server will initiate IPv4 connections from"
-msgstr ""
-
-#: applications/luci-app-shadowsocks-libev/htdocs/luci-static/resources/view/shadowsocks-libev/instances.js:99
-msgid "The IPv6 address ss-server will initiate IPv6 connections from"
-msgstr ""
-
 #: applications/luci-app-shadowsocks-libev/htdocs/luci-static/resources/view/shadowsocks-libev/instances.js:89
-msgid "The address ss-server will initiate connections from"
+msgid "The address ss-server will initiate connection from"
 msgstr ""
 
-#: applications/luci-app-shadowsocks-libev/htdocs/luci-static/resources/view/shadowsocks-libev/instances.js:107
+#: applications/luci-app-shadowsocks-libev/htdocs/luci-static/resources/view/shadowsocks-libev/instances.js:98
 msgid "The address ss-tunnel will forward traffic to"
 msgstr ""
 
-#: applications/luci-app-shadowsocks-libev/htdocs/luci-static/resources/shadowsocks-libev.js:187
+#: applications/luci-app-shadowsocks-libev/htdocs/luci-static/resources/shadowsocks-libev.js:174
 msgid "Timeout (sec)"
 msgstr ""
 
-#: applications/luci-app-shadowsocks-libev/htdocs/luci-static/resources/view/shadowsocks-libev/instances.js:106
+#: applications/luci-app-shadowsocks-libev/htdocs/luci-static/resources/view/shadowsocks-libev/instances.js:97
 msgid "Tunnel address"
 msgstr ""
 
-#: applications/luci-app-shadowsocks-libev/htdocs/luci-static/resources/shadowsocks-libev.js:191
+#: applications/luci-app-shadowsocks-libev/htdocs/luci-static/resources/shadowsocks-libev.js:178
 msgid "Verbose"
 msgstr ""
 

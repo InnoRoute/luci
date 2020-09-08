@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2009-05-19 19:36+0200\n"
-"PO-Revision-Date: 2020-07-26 01:23+0000\n"
+"PO-Revision-Date: 2020-06-13 22:13+0000\n"
 "Last-Translator: Satoru Yoshida <ramat@ram.ne.jp>\n"
 "Language-Team: Japanese <https://hosted.weblate.org/projects/openwrt/"
 "luciapplicationstinyproxy/ja/>\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.2-dev\n"
+"X-Generator: Weblate 4.1-dev\n"
 
 #: applications/luci-app-tinyproxy/luasrc/model/cbi/tinyproxy.lua:219
 msgid ""
@@ -126,7 +126,7 @@ msgstr "フィルタリングとアクセス制御"
 
 #: applications/luci-app-tinyproxy/luasrc/model/cbi/tinyproxy.lua:11
 msgid "General settings"
-msgstr "一般設定"
+msgstr "基本設定"
 
 #: applications/luci-app-tinyproxy/root/usr/share/rpcd/acl.d/luci-app-tinyproxy.json:3
 msgid "Grant UCI access for luci-app-tinyproxy"
@@ -163,11 +163,11 @@ msgstr ""
 
 #: applications/luci-app-tinyproxy/luasrc/model/cbi/tinyproxy.lua:39
 msgid "Listen address"
-msgstr "待ち受けアドレス"
+msgstr "待受アドレス"
 
 #: applications/luci-app-tinyproxy/luasrc/model/cbi/tinyproxy.lua:31
 msgid "Listen port"
-msgstr "待ち受けポート"
+msgstr "待受ポート"
 
 #: applications/luci-app-tinyproxy/luasrc/model/cbi/tinyproxy.lua:73
 msgid "Log file"

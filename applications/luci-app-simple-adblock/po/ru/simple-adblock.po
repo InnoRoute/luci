@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: LuCI: simple-adblock\n"
 "POT-Creation-Date: 2017-12-07 14:00+0300\n"
-"PO-Revision-Date: 2020-08-16 19:29+0000\n"
-"Last-Translator: Alexey Napalkov <flynbit@gmail.com>\n"
+"PO-Revision-Date: 2020-07-04 17:41+0000\n"
+"Last-Translator: Artem <KovalevArtem.ru@gmail.com>\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/openwrt/"
 "luciapplicationssimple-adblock/ru/>\n"
 "Language: ru\n"
@@ -291,7 +291,7 @@ msgstr "Статус сервиса"
 
 #: applications/luci-app-simple-adblock/luasrc/model/cbi/simple-adblock.lua:166
 msgid "Service Status [%s %s]"
-msgstr "Статус службы [%s %s]"
+msgstr ""
 
 #: applications/luci-app-simple-adblock/luasrc/controller/simple-adblock.lua:4
 #: applications/luci-app-simple-adblock/root/usr/share/luci/menu.d/luci-app-simple-adblock.json:3
@@ -349,7 +349,7 @@ msgstr "Запретить запись"
 
 #: applications/luci-app-simple-adblock/luasrc/model/cbi/simple-adblock.lua:176
 msgid "Task"
-msgstr "Задача"
+msgstr "задача"
 
 #: applications/luci-app-simple-adblock/luasrc/model/cbi/simple-adblock.lua:330
 msgid "URLs to lists of domains to be allowed."

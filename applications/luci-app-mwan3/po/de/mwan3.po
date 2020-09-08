@@ -1,14 +1,14 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2020-07-11 21:29+0000\n"
-"Last-Translator: ssantos <ssantos@web.de>\n"
+"PO-Revision-Date: 2020-04-10 05:57+0000\n"
+"Last-Translator: ce4 <chregger@gmail.com>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/openwrt/"
 "luciapplicationsmwan3/de/>\n"
 "Language: de\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.2-dev\n"
+"X-Generator: Weblate 4.0-dev\n"
 
 #: applications/luci-app-mwan3/luasrc/model/cbi/mwan/interfaceconfig.lua:176
 #: applications/luci-app-mwan3/luasrc/model/cbi/mwan/interfaceconfig.lua:192
@@ -120,7 +120,7 @@ msgstr "Linkqualität prüfen"
 msgid "Check routing table"
 msgstr "Prüfen der Routing-Tabelle"
 
-#: applications/luci-app-mwan3/luasrc/view/mwan/overview_status_interface.htm:98
+#: applications/luci-app-mwan3/luasrc/view/mwan/overview_status_interface.htm:97
 #: applications/luci-app-mwan3/luasrc/view/mwan/status_detail.htm:34
 #: applications/luci-app-mwan3/luasrc/view/mwan/status_troubleshooting.htm:34
 msgid "Collecting data..."
@@ -239,7 +239,7 @@ msgstr "Allgemein"
 
 #: applications/luci-app-mwan3/root/usr/share/rpcd/acl.d/luci-app-mwan3.json:3
 msgid "Grant UCI access for luci-app-mwan3"
-msgstr "Gewähre UCI Zugriff auf luci-app-mwan3"
+msgstr ""
 
 #: applications/luci-app-mwan3/luasrc/view/mwan/status_diagnostics.htm:80
 msgid "Hotplug ifdown"
@@ -334,7 +334,7 @@ msgstr "Letzter Ausweg"
 msgid "Load Balancing"
 msgstr "Lastverteilung"
 
-#: applications/luci-app-mwan3/luasrc/view/mwan/overview_status_interface.htm:97
+#: applications/luci-app-mwan3/luasrc/view/mwan/overview_status_interface.htm:96
 #: applications/luci-app-mwan3/luasrc/view/mwan/status_detail.htm:33
 #: applications/luci-app-mwan3/luasrc/view/mwan/status_diagnostics.htm:36
 #: applications/luci-app-mwan3/luasrc/view/mwan/status_troubleshooting.htm:33
@@ -378,7 +378,7 @@ msgstr "MWAN - Regeln"
 msgid "MWAN Interface Configuration - %s"
 msgstr "MWAN-Konfiguration, Schnittstelle - %s"
 
-#: applications/luci-app-mwan3/luasrc/view/mwan/overview_status_interface.htm:95
+#: applications/luci-app-mwan3/luasrc/view/mwan/overview_status_interface.htm:94
 msgid "MWAN Interfaces"
 msgstr "MWAN Schnittstellen"
 
@@ -503,7 +503,7 @@ msgstr ""
 msgid "No"
 msgstr "Nein"
 
-#: applications/luci-app-mwan3/luasrc/view/mwan/overview_status_interface.htm:77
+#: applications/luci-app-mwan3/luasrc/view/mwan/overview_status_interface.htm:76
 msgid "No MWAN interfaces found"
 msgstr "Keine MWAN-Schnittstellen gefunden"
 

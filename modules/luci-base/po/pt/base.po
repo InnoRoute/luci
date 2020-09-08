@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2009-05-26 19:03+0200\n"
-"PO-Revision-Date: 2020-09-07 10:27+0000\n"
+"PO-Revision-Date: 2020-05-13 20:35+0000\n"
 "Last-Translator: ssantos <ssantos@web.de>\n"
 "Language-Team: Portuguese <https://hosted.weblate.org/projects/openwrt/luci/"
 "pt/>\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.3-dev\n"
+"X-Generator: Weblate 4.1-dev\n"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:929
 msgid "%.1f dB"
@@ -23,7 +23,7 @@ msgstr "%.1f dB"
 msgid "%d Bit"
 msgstr "%d Bit"
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:3689
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:3648
 msgid "%d invalid field(s)"
 msgstr "%d campo(s) inválido(s)"
 
@@ -59,19 +59,19 @@ msgid "-- Additional Field --"
 msgstr "-- Campo Adicional --"
 
 #: modules/luci-base/htdocs/luci-static/resources/cbi.js:275
-#: modules/luci-base/htdocs/luci-static/resources/form.js:3372
-#: modules/luci-base/htdocs/luci-static/resources/form.js:3704
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:767
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:1005
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:1974
+#: modules/luci-base/htdocs/luci-static/resources/form.js:3201
+#: modules/luci-base/htdocs/luci-static/resources/form.js:3533
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:726
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:964
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:1933
 #: modules/luci-compat/luasrc/view/cbi/header.htm:8
 #: protocols/luci-proto-3g/htdocs/luci-static/resources/protocol/3g.js:88
 msgid "-- Please choose --"
 msgstr "-- Por favor escolha --"
 
 #: modules/luci-base/htdocs/luci-static/resources/cbi.js:276
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:1006
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:1975
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:965
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:1934
 #: modules/luci-compat/luasrc/view/cbi/header.htm:9
 msgid "-- custom --"
 msgstr "-- personalizado --"
@@ -95,7 +95,7 @@ msgstr "-- por favor selecione --"
 #: protocols/luci-proto-sstp/htdocs/luci-static/resources/protocol/sstp.js:54
 msgctxt "sstp log level value"
 msgid "0"
-msgstr "0"
+msgstr ""
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:939
 msgid "0 = not using RSSI threshold, 1 = do not change driver default"
@@ -105,7 +105,7 @@ msgstr ""
 #: protocols/luci-proto-sstp/htdocs/luci-static/resources/protocol/sstp.js:55
 msgctxt "sstp log level value"
 msgid "1"
-msgstr "1"
+msgstr ""
 
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/load.js:231
 msgid "1 Minute Load:"
@@ -118,17 +118,17 @@ msgstr "Carga de 15 minutos:"
 #: protocols/luci-proto-sstp/htdocs/luci-static/resources/protocol/sstp.js:56
 msgctxt "sstp log level value"
 msgid "2"
-msgstr "2"
+msgstr ""
 
 #: protocols/luci-proto-sstp/htdocs/luci-static/resources/protocol/sstp.js:57
 msgctxt "sstp log level value"
 msgid "3"
-msgstr "3"
+msgstr ""
 
 #: protocols/luci-proto-sstp/htdocs/luci-static/resources/protocol/sstp.js:58
 msgctxt "sstp log level value"
 msgid "4"
-msgstr "4"
+msgstr ""
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:1442
 msgid "4-character hexadecimal ID"
@@ -275,7 +275,7 @@ msgstr ""
 "<br/>Nota: você precisa reiniciar manualmente o serviço da cron se o "
 "ficheiro crontab estava vazio antes da edição."
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:2720
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:2679
 msgid "A directory with the same name already exists."
 msgstr "Já existe um diretório com o mesmo nome."
 
@@ -300,7 +300,7 @@ msgid "ANSI T1.413"
 msgstr "ANSI T1.413"
 
 #: protocols/luci-proto-3g/htdocs/luci-static/resources/protocol/3g.js:94
-#: protocols/luci-proto-modemmanager/htdocs/luci-static/resources/protocol/modemmanager.js:93
+#: protocols/luci-proto-modemmanager/htdocs/luci-static/resources/protocol/modemmanager.js:87
 #: protocols/luci-proto-ncm/htdocs/luci-static/resources/protocol/ncm.js:86
 #: protocols/luci-proto-qmi/htdocs/luci-static/resources/protocol/qmi.js:67
 msgid "APN"
@@ -313,23 +313,23 @@ msgstr "ARP"
 
 #: protocols/luci-proto-bonding/htdocs/luci-static/resources/protocol/bonding.js:365
 msgid "ARP IP Targets"
-msgstr "Alvos do IP ARP"
+msgstr ""
 
 #: protocols/luci-proto-bonding/htdocs/luci-static/resources/protocol/bonding.js:357
 msgid "ARP Interval"
-msgstr "Intervalo do ARP"
+msgstr ""
 
 #: protocols/luci-proto-bonding/htdocs/luci-static/resources/protocol/bonding.js:381
 msgid "ARP Validation"
-msgstr "Validação do ARP"
+msgstr ""
 
 #: protocols/luci-proto-bonding/htdocs/luci-static/resources/protocol/bonding.js:373
 msgid "ARP mode to consider a slave as being up"
-msgstr "Modo ARP a ser considerado como um escravo ativo"
+msgstr ""
 
 #: protocols/luci-proto-bonding/htdocs/luci-static/resources/protocol/bonding.js:77
 msgid "ARP monitoring is not supported for the selected policy!"
-msgstr "O monitoramento ARP não é compatível com a política selecionada!"
+msgstr ""
 
 #: protocols/luci-proto-relay/htdocs/luci-static/resources/protocol/relay.js:175
 msgid "ARP retry threshold"
@@ -417,9 +417,9 @@ msgstr "Concessões DHCPv6 Ativas"
 
 #: protocols/luci-proto-bonding/htdocs/luci-static/resources/protocol/bonding.js:203
 msgid "Active-Backup policy (active-backup, 1)"
-msgstr "Política de Backup Ativo (backup ativo, 1)"
+msgstr ""
 
-#: modules/luci-base/htdocs/luci-static/resources/network.js:3666
+#: modules/luci-base/htdocs/luci-static/resources/network.js:3650
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:929
 #: protocols/luci-proto-hnet/htdocs/luci-static/resources/protocol/hnet.js:23
 msgid "Ad-Hoc"
@@ -427,17 +427,17 @@ msgstr "Ad-Hoc"
 
 #: protocols/luci-proto-bonding/htdocs/luci-static/resources/protocol/bonding.js:208
 msgid "Adaptive load balancing (balance-alb, 6)"
-msgstr "Balanceamento de carga adaptável (balanço-alb, 6)"
+msgstr ""
 
 #: protocols/luci-proto-bonding/htdocs/luci-static/resources/protocol/bonding.js:207
 msgid "Adaptive transmit load balancing (balance-tlb, 5)"
-msgstr "Balanceamento adaptativo da carga de transmissão (balanço-tlb, 5)"
+msgstr ""
 
-#: modules/luci-base/htdocs/luci-static/resources/form.js:2167
-#: modules/luci-base/htdocs/luci-static/resources/form.js:2170
-#: modules/luci-base/htdocs/luci-static/resources/form.js:2184
-#: modules/luci-base/htdocs/luci-static/resources/form.js:2185
-#: modules/luci-base/htdocs/luci-static/resources/form.js:3170
+#: modules/luci-base/htdocs/luci-static/resources/form.js:2013
+#: modules/luci-base/htdocs/luci-static/resources/form.js:2016
+#: modules/luci-base/htdocs/luci-static/resources/form.js:2030
+#: modules/luci-base/htdocs/luci-static/resources/form.js:2031
+#: modules/luci-base/htdocs/luci-static/resources/form.js:3016
 #: modules/luci-compat/luasrc/view/cbi/nsection.htm:25
 #: modules/luci-compat/luasrc/view/cbi/tblsection.htm:189
 #: modules/luci-compat/luasrc/view/cbi/tblsection.htm:197
@@ -488,7 +488,7 @@ msgstr ""
 msgid "Add new interface..."
 msgstr "Adicionar uma nova interface..."
 
-#: protocols/luci-proto-wireguard/htdocs/luci-static/resources/protocol/wireguard.js:125
+#: protocols/luci-proto-wireguard/htdocs/luci-static/resources/protocol/wireguard.js:105
 msgid "Add peer"
 msgstr "Adicionar par"
 
@@ -541,32 +541,27 @@ msgstr ""
 
 #: protocols/luci-proto-bonding/htdocs/luci-static/resources/protocol/bonding.js:258
 msgid "Aggregation Selection Logic"
-msgstr "Lógica da Seleção de Agregação"
+msgstr ""
 
 #: protocols/luci-proto-bonding/htdocs/luci-static/resources/protocol/bonding.js:261
 msgid "Aggregator: All slaves down or has no slaves (stable, 0)"
 msgstr ""
-"Agregador: Todos os escravos foram derrubados ou não há escravos (estável, 0)"
 
 #: protocols/luci-proto-bonding/htdocs/luci-static/resources/protocol/bonding.js:263
 msgid ""
 "Aggregator: Chosen by the largest number of ports + slave added/removed or "
 "state changes (count, 2)"
 msgstr ""
-"Agregador: Escolhido pelo maior quantidade de portas + escravo adicionado/"
-"removido ou alterações da condição (contagem, 2)"
 
 #: protocols/luci-proto-bonding/htdocs/luci-static/resources/protocol/bonding.js:262
 msgid "Aggregator: Slave added/removed or state changes (bandwidth, 1)"
 msgstr ""
-"Agregador: Escravo adicionado/removido ou houve alteração da condição "
-"(largura de banda, 1)"
 
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/system.js:171
 msgid "Alert"
 msgstr "Alerta"
 
-#: modules/luci-base/htdocs/luci-static/resources/network.js:2871
+#: modules/luci-base/htdocs/luci-static/resources/network.js:2855
 #: modules/luci-compat/luasrc/model/network.lua:1417
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:61
 msgid "Alias Interface"
@@ -608,7 +603,7 @@ msgstr "Permitir todos, excepto os listados"
 
 #: modules/luci-compat/root/usr/share/rpcd/acl.d/luci-compat.json:3
 msgid "Allow full UCI access for legacy applications"
-msgstr "Conceder acesso UCI total a aplicações herdadas"
+msgstr "Conceder acesso UCI total a aplicativos herdados"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:892
 msgid "Allow legacy 802.11b rates"
@@ -649,13 +644,13 @@ msgid ""
 msgstr ""
 "Permitir respostas a montante na gama 127.0.0.1/8, p.e. para serviços RBL"
 
-#: protocols/luci-proto-wireguard/htdocs/luci-static/resources/protocol/wireguard.js:148
+#: protocols/luci-proto-wireguard/htdocs/luci-static/resources/protocol/wireguard.js:128
 msgid "Allowed IPs"
 msgstr "Endereços IP autorizados"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:654
 msgid "Always announce default router"
-msgstr "Anunciar sempre o router predefinido"
+msgstr "Anunciar sempre o router padrão"
 
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/led-trigger/none.js:5
 msgid "Always off (kernel: none)"
@@ -741,7 +736,8 @@ msgstr "Anexo M G.992.5"
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:654
 msgid "Announce as default router even if no public prefix is available."
 msgstr ""
-"Anunciar-se como gateway mesmo se não existir um prefixo público disponível."
+"Anunciar-se como router padrão mesmo se não existir um prefixo público "
+"disponível."
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:659
 msgid "Announced DNS domains"
@@ -774,16 +770,16 @@ msgstr "Qualquer zona"
 msgid "Apply backup?"
 msgstr "Aplicar backup?"
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:4276
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:4235
 msgid "Apply request failed with status <code>%h</code>"
 msgstr "Pedido para aplicar falhou com o estado <code>%h</code>"
 
 #: modules/luci-base/htdocs/luci-static/resources/luci.js:2181
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:4142
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:4101
 msgid "Apply unchecked"
 msgstr "Aplicar desmarcado"
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:4215
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:4174
 msgid "Applying configuration changes… %ds"
 msgstr "Aplicando alterações de configuração... %ds"
 
@@ -829,7 +825,7 @@ msgstr "Grupo de Autenticação"
 msgid "Authentication"
 msgstr "Autenticação"
 
-#: protocols/luci-proto-modemmanager/htdocs/luci-static/resources/protocol/modemmanager.js:96
+#: protocols/luci-proto-modemmanager/htdocs/luci-static/resources/protocol/modemmanager.js:90
 #: protocols/luci-proto-qmi/htdocs/luci-static/resources/protocol/qmi.js:70
 msgid "Authentication Type"
 msgstr "Tipo de Autenticação"
@@ -975,7 +971,7 @@ msgid ""
 "linux default)"
 msgstr ""
 "Ligar dinamicamente a interfaces ao invés de endereços wildcard (recomendado "
-"como predefinição do Linux)"
+"como padrão do Linux)"
 
 #: protocols/luci-proto-gre/htdocs/luci-static/resources/protocol/gre.js:52
 #: protocols/luci-proto-gre/htdocs/luci-static/resources/protocol/gretap.js:57
@@ -1009,9 +1005,9 @@ msgstr "Substituir Domínios NX Falsos"
 
 #: protocols/luci-proto-bonding/htdocs/luci-static/resources/protocol/bonding.js:199
 msgid "Bonding Policy"
-msgstr "Política do Vínculo"
+msgstr ""
 
-#: modules/luci-base/htdocs/luci-static/resources/network.js:2877
+#: modules/luci-base/htdocs/luci-static/resources/network.js:2861
 #: modules/luci-compat/luasrc/model/network.lua:1421
 msgid "Bridge"
 msgstr "Bridge"
@@ -1031,10 +1027,10 @@ msgstr "Ativar com o arranque"
 
 #: protocols/luci-proto-bonding/htdocs/luci-static/resources/protocol/bonding.js:205
 msgid "Broadcast policy (broadcast, 3)"
-msgstr "Política de divulgação (transmissão, 3)"
+msgstr ""
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:2810
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:3799
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:2769
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:3758
 msgid "Browse…"
 msgstr "Navegar…"
 
@@ -1061,12 +1057,13 @@ msgstr "Em cache"
 
 #: modules/luci-compat/luasrc/model/network/proto_modemmanager.lua:53
 #: modules/luci-compat/luasrc/model/network/proto_qmi.lua:53
+#: protocols/luci-proto-modemmanager/htdocs/luci-static/resources/protocol/modemmanager.js:40
 #: protocols/luci-proto-qmi/htdocs/luci-static/resources/protocol/qmi.js:21
 msgid "Call failed"
 msgstr "A chamada falhou"
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:2903
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:3808
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:2862
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:3767
 #: modules/luci-compat/luasrc/view/cbi/delegator.htm:14
 #: modules/luci-compat/luasrc/view/cbi/simpleform.htm:52
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:187
@@ -1141,11 +1138,11 @@ msgstr ""
 msgid "Chain"
 msgstr "Cadeia"
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:4028
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:3987
 msgid "Changes"
 msgstr "Alterações"
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:4311
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:4270
 msgid "Changes have been reverted."
 msgstr "As alterações foram revertidas."
 
@@ -1179,7 +1176,7 @@ msgstr "A verificar o arquivo…"
 msgid "Checking image…"
 msgstr "A verificar a imagem…"
 
-#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js:399
+#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js:392
 msgid "Choose mtdblock"
 msgstr "Escolha o bloco mtd"
 
@@ -1220,7 +1217,7 @@ msgstr ""
 "Clique em \"Gerar arquivo\" para descarregar um arquivo tar com os ficheiros "
 "de configuração atuais."
 
-#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js:396
+#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js:389
 msgid ""
 "Click \"Save mtdblock\" to download specified mtdblock file. (NOTE: THIS "
 "FEATURE IS FOR PROFESSIONALS! )"
@@ -1228,7 +1225,7 @@ msgstr ""
 "Clique em \"Gravar o bloco mtd\" para descarregar o ficheiro do bloco mtd "
 "especificado. (NOTA: ESTE RECURSO É PARA PROFISSIONAIS!)"
 
-#: modules/luci-base/htdocs/luci-static/resources/network.js:3665
+#: modules/luci-base/htdocs/luci-static/resources/network.js:3649
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:928
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:1033
 msgid "Client"
@@ -1305,18 +1302,18 @@ msgstr ""
 #: protocols/luci-proto-gre/htdocs/luci-static/resources/protocol/grev6.js:93
 #: protocols/luci-proto-gre/htdocs/luci-static/resources/protocol/grev6tap.js:98
 msgid "Compute outgoing checksum (optional)."
-msgstr "Cálculo do checksum de saída (opcional)."
+msgstr ""
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:4028
-#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js:426
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:3987
+#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js:421
 msgid "Configuration"
 msgstr "Configuração"
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:4190
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:4149
 msgid "Configuration changes applied."
 msgstr "A configuração foi aplicada."
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:4128
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:4087
 msgid "Configuration changes have been rolled back!"
 msgstr "A configuração foi revertida!"
 
@@ -1343,10 +1340,6 @@ msgstr "Ligada"
 msgid "Connection attempt failed"
 msgstr "A tentativa de ligação falhou"
 
-#: protocols/luci-proto-modemmanager/htdocs/luci-static/resources/protocol/modemmanager.js:40
-msgid "Connection attempt failed."
-msgstr "A tentativa de ligação falhou."
-
 #: modules/luci-base/htdocs/luci-static/resources/rpc.js:414
 msgid "Connection lost"
 msgstr "Ligação perdida"
@@ -1358,14 +1351,10 @@ msgstr "Ligações"
 #: protocols/luci-proto-bonding/htdocs/luci-static/resources/protocol/bonding.js:377
 msgid "Consider the slave up when all ARP IP targets are reachable (all, 1)"
 msgstr ""
-"Considere o escravo ativo quando todos os destinos IP do ARP estiverem "
-"acessíveis (todos, 1)"
 
 #: protocols/luci-proto-bonding/htdocs/luci-static/resources/protocol/bonding.js:376
 msgid "Consider the slave up when any ARP IP target is reachable (any, 0)"
 msgstr ""
-"Considere o escravo ativo quando qualquer alvo IP ARP estiver acessível "
-"(qualquer, 0)"
 
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/crontab.js:18
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js:340
@@ -1379,7 +1368,7 @@ msgstr "Os conteúdos foram gravados."
 msgid "Continue"
 msgstr "Continuar"
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:4164
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:4123
 msgid ""
 "Could not regain access to the device after applying the configuration "
 "changes. You might need to reconnect if you modified network related "
@@ -1478,7 +1467,7 @@ msgstr "Servidor DHCP"
 msgid "DHCP and DNS"
 msgstr "DHCP e DNS"
 
-#: modules/luci-base/htdocs/luci-static/resources/network.js:1982
+#: modules/luci-base/htdocs/luci-static/resources/network.js:1966
 #: modules/luci-base/htdocs/luci-static/resources/protocol/dhcp.js:16
 #: modules/luci-compat/luasrc/model/network.lua:969
 msgid "DHCP client"
@@ -1568,7 +1557,7 @@ msgstr "Depurar"
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:1343
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:1358
 msgid "Default %d"
-msgstr "Predefinição %d"
+msgstr "Padrão %d"
 
 #: protocols/luci-proto-vpnc/htdocs/luci-static/resources/protocol/vpnc.js:107
 msgid "Default Route"
@@ -1587,7 +1576,7 @@ msgstr "Gateway predefinido"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:646
 msgid "Default is stateless + stateful"
-msgstr "A predefinição é sem estado + com estado"
+msgstr "O padrão é sem estado + com estado"
 
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/led-trigger/default-on.js:11
 msgid "Default state"
@@ -1603,11 +1592,11 @@ msgstr ""
 "\"<code>6,192.168.2.1,192.168.2.2</code>\" informa os clientes de diferentes "
 "servidores DNS."
 
-#: modules/luci-base/htdocs/luci-static/resources/form.js:2237
-#: modules/luci-base/htdocs/luci-static/resources/form.js:2662
-#: modules/luci-base/htdocs/luci-static/resources/form.js:2666
-#: modules/luci-base/htdocs/luci-static/resources/form.js:3154
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:2872
+#: modules/luci-base/htdocs/luci-static/resources/form.js:2083
+#: modules/luci-base/htdocs/luci-static/resources/form.js:2508
+#: modules/luci-base/htdocs/luci-static/resources/form.js:2512
+#: modules/luci-base/htdocs/luci-static/resources/form.js:3000
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:2831
 #: modules/luci-compat/luasrc/view/cbi/nsection.htm:11
 #: modules/luci-compat/luasrc/view/cbi/tblsection.htm:162
 #: modules/luci-compat/luasrc/view/cbi/tsection.htm:16
@@ -1619,7 +1608,7 @@ msgstr "Apagar"
 msgid "Delete key"
 msgstr "Apagar chave"
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:2769
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:2728
 msgid "Delete request failed: %s"
 msgstr "Pedido de apagar falhou: %s"
 
@@ -1632,11 +1621,11 @@ msgid "Delivery Traffic Indication Message Interval"
 msgstr "Intervalo da Mensagem Indicativa de Envio de Tráfego (DTIM)"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/switch.js:340
-#: protocols/luci-proto-wireguard/htdocs/luci-static/resources/protocol/wireguard.js:134
+#: protocols/luci-proto-wireguard/htdocs/luci-static/resources/protocol/wireguard.js:114
 msgid "Description"
 msgstr "Descrição"
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:2868
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:2827
 msgid "Deselect"
 msgstr "Desmarcar"
 
@@ -1651,7 +1640,7 @@ msgstr "Destino"
 
 #: protocols/luci-proto-vxlan/htdocs/luci-static/resources/protocol/vxlan.js:48
 msgid "Destination port"
-msgstr "Porta de destino"
+msgstr ""
 
 #: modules/luci-base/htdocs/luci-static/resources/tools/widgets.js:59
 #: modules/luci-base/htdocs/luci-static/resources/tools/widgets.js:165
@@ -1685,11 +1674,7 @@ msgstr "O aparelho não está ativo"
 msgid "Device is restarting…"
 msgstr "O aparelho está a reiniciar…"
 
-#: protocols/luci-proto-modemmanager/htdocs/luci-static/resources/protocol/modemmanager.js:45
-msgid "Device not managed by ModemManager."
-msgstr "Aparelho não gerido pelo ModemManager."
-
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:4163
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:4122
 msgid "Device unreachable!"
 msgstr "Aparelho não alcançável!"
 
@@ -1706,7 +1691,7 @@ msgstr "Diagnósticos"
 msgid "Dial number"
 msgstr "Número de discagem"
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:2665
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:2624
 msgid "Directory"
 msgstr "Diretório"
 
@@ -1771,15 +1756,11 @@ msgstr "Desconectar"
 msgid "Disconnection attempt failed"
 msgstr "A tentativa de desconexão falhou"
 
-#: protocols/luci-proto-modemmanager/htdocs/luci-static/resources/protocol/modemmanager.js:48
-msgid "Disconnection attempt failed."
-msgstr "A tentativa de desconexão falhou."
-
 #: modules/luci-base/htdocs/luci-static/resources/form.js:606
-#: modules/luci-base/htdocs/luci-static/resources/form.js:2861
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:3309
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:4045
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:4134
+#: modules/luci-base/htdocs/luci-static/resources/form.js:2707
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:3268
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:4004
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:4093
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:1688
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js:330
 msgid "Dismiss"
@@ -1814,7 +1795,7 @@ msgstr "Não por respostas negativas em cache, p.e. para domínios inexistentes"
 #: protocols/luci-proto-gre/htdocs/luci-static/resources/protocol/grev6.js:81
 #: protocols/luci-proto-gre/htdocs/luci-static/resources/protocol/grev6tap.js:86
 msgid "Do not create host route to peer (optional)."
-msgstr "Não crie a rota do host para o peer (opcional)."
+msgstr ""
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/dhcp.js:219
 msgid "Do not forward requests that cannot be answered by public name servers"
@@ -1826,7 +1807,7 @@ msgstr ""
 msgid "Do not forward reverse lookups for local networks"
 msgstr "Não encaminhar lookups reversos para as redes locais"
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:2755
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:2714
 msgid "Do you really want to delete \"%s\" ?"
 msgstr "Quer mesmo apagar \"%s\"?"
 
@@ -1838,7 +1819,7 @@ msgstr "Deseja mesmo apagar a seguinte chave SSH?"
 msgid "Do you really want to erase all settings?"
 msgstr "Quer mesmo apagar todas as configurações?"
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:2753
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:2712
 msgid "Do you really want to recursively delete the directory \"%s\" ?"
 msgstr "Deseja mesmo apagar recursivamente o diretório \"%s\"?"
 
@@ -1870,13 +1851,13 @@ msgstr "Abaixo"
 
 #: protocols/luci-proto-bonding/htdocs/luci-static/resources/protocol/bonding.js:402
 msgid "Down Delay"
-msgstr "Atraso de Descida"
+msgstr ""
 
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js:366
 msgid "Download backup"
 msgstr "Transferir backup"
 
-#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js:404
+#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js:399
 msgid "Download mtdblock"
 msgstr "Transferir o bloco mtd"
 
@@ -1886,13 +1867,13 @@ msgstr ""
 "Deslocamento <abbr title=\"Signal to Noise Ratio\">SNR</abbr> do sinal "
 "recebido"
 
-#: modules/luci-base/htdocs/luci-static/resources/form.js:2620
+#: modules/luci-base/htdocs/luci-static/resources/form.js:2466
 msgid "Drag to reorder"
 msgstr "Arraste para reordenar"
 
 #: protocols/luci-proto-bonding/htdocs/luci-static/resources/protocol/bonding.js:341
 msgid "Drop Duplicate Frames"
-msgstr "Descartar Quadros Duplicados"
+msgstr ""
 
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/dropbear.js:12
 msgid "Dropbear Instance"
@@ -1936,9 +1917,9 @@ msgstr "Comprimento dos bits EA"
 msgid "EAP-Method"
 msgstr "Método EAP"
 
-#: modules/luci-base/htdocs/luci-static/resources/form.js:2640
-#: modules/luci-base/htdocs/luci-static/resources/form.js:2643
-#: modules/luci-base/htdocs/luci-static/resources/form.js:3017
+#: modules/luci-base/htdocs/luci-static/resources/form.js:2486
+#: modules/luci-base/htdocs/luci-static/resources/form.js:2489
+#: modules/luci-base/htdocs/luci-static/resources/form.js:2863
 #: modules/luci-compat/luasrc/view/cbi/tblsection.htm:154
 #: modules/luci-compat/luasrc/view/cbi/tblsection.htm:160
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:339
@@ -1991,7 +1972,7 @@ msgstr "Ativar pesquisas de DNS"
 
 #: protocols/luci-proto-bonding/htdocs/luci-static/resources/protocol/bonding.js:292
 msgid "Enable Dynamic Shuffling Of Flows"
-msgstr "Ativar o Embaralhamento Dinâmico do Flows"
+msgstr ""
 
 #: protocols/luci-proto-ipv6/htdocs/luci-static/resources/protocol/6in4.js:60
 msgid "Enable HE.net dynamic endpoint update"
@@ -2060,7 +2041,7 @@ msgstr ""
 #: protocols/luci-proto-vxlan/htdocs/luci-static/resources/protocol/vxlan.js:80
 #: protocols/luci-proto-vxlan/htdocs/luci-static/resources/protocol/vxlan6.js:75
 msgid "Enable rx checksum"
-msgstr "Ativar o checksum no rx"
+msgstr ""
 
 #: protocols/luci-proto-gre/htdocs/luci-static/resources/protocol/gre.js:76
 #: protocols/luci-proto-gre/htdocs/luci-static/resources/protocol/gretap.js:81
@@ -2075,7 +2056,7 @@ msgstr "Ativar esta rede"
 #: protocols/luci-proto-vxlan/htdocs/luci-static/resources/protocol/vxlan.js:84
 #: protocols/luci-proto-vxlan/htdocs/luci-static/resources/protocol/vxlan6.js:79
 msgid "Enable tx checksum"
-msgstr "Ativar o checksum no tx"
+msgstr ""
 
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/mounts.js:243
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/mounts.js:352
@@ -2118,11 +2099,11 @@ msgstr "Modo de encapsulamento"
 msgid "Encryption"
 msgstr "Encriptação"
 
-#: protocols/luci-proto-wireguard/htdocs/luci-static/resources/protocol/wireguard.js:161
+#: protocols/luci-proto-wireguard/htdocs/luci-static/resources/protocol/wireguard.js:141
 msgid "Endpoint Host"
 msgstr "Host Terminal"
 
-#: protocols/luci-proto-wireguard/htdocs/luci-static/resources/protocol/wireguard.js:165
+#: protocols/luci-proto-wireguard/htdocs/luci-static/resources/protocol/wireguard.js:145
 msgid "Endpoint Port"
 msgstr "Porta do Terminal"
 
@@ -2151,23 +2132,23 @@ msgstr "Erro"
 msgid "Errored seconds (ES)"
 msgstr "Segundos com erro (ES)"
 
-#: modules/luci-base/htdocs/luci-static/resources/network.js:2889
+#: modules/luci-base/htdocs/luci-static/resources/network.js:2873
 #: modules/luci-compat/luasrc/model/network.lua:1433
 msgid "Ethernet Adapter"
 msgstr "Adaptador Ethernet"
 
-#: modules/luci-base/htdocs/luci-static/resources/network.js:2880
+#: modules/luci-base/htdocs/luci-static/resources/network.js:2864
 #: modules/luci-compat/luasrc/model/network.lua:1423
 msgid "Ethernet Switch"
 msgstr "Switch Ethernet"
 
 #: protocols/luci-proto-bonding/htdocs/luci-static/resources/protocol/bonding.js:270
 msgid "Every 30 seconds (slow, 0)"
-msgstr "A cada 30 segundos (lento, 0)"
+msgstr ""
 
 #: protocols/luci-proto-bonding/htdocs/luci-static/resources/protocol/bonding.js:271
 msgid "Every second (fast, 1)"
-msgstr "A cada segundo (rápido, 1)"
+msgstr ""
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/dhcp.js:399
 msgid "Exclude interfaces"
@@ -2191,11 +2172,11 @@ msgstr "À espera de uma dica de atribuição hexadecimal"
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/dhcp.js:132
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/dhcp.js:136
 msgid "Expecting: %s"
-msgstr "Esperando: %s"
+msgstr "À espera de: %s"
 
 #: protocols/luci-proto-bonding/htdocs/luci-static/resources/protocol/bonding.js:48
 msgid "Expecting: non-empty value"
-msgstr "Esperando: um valor não vazio"
+msgstr ""
 
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/include/30_network.js:50
 msgid "Expires"
@@ -2237,11 +2218,11 @@ msgstr "Opções adicionais do comando SSH"
 
 #: protocols/luci-proto-sstp/htdocs/luci-static/resources/protocol/sstp.js:83
 msgid "Extra pppd options"
-msgstr "Opções adicionais do pppd"
+msgstr ""
 
 #: protocols/luci-proto-sstp/htdocs/luci-static/resources/protocol/sstp.js:81
 msgid "Extra sstpc options"
-msgstr "Opções extras do sstpc"
+msgstr ""
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:1456
 msgid "FT over DS"
@@ -2259,7 +2240,7 @@ msgstr "Protocolo FT"
 msgid "Failed to change the system password."
 msgstr "Falha ao alterar a palavra-passe do sistema."
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:4122
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:4081
 msgid "Failed to confirm apply within %ds, waiting for rollback…"
 msgstr ""
 "Não foi possível confirmar a aplicação das configurações dentro de %ds, "
@@ -2269,15 +2250,15 @@ msgstr ""
 msgid "Failed to execute \"/etc/init.d/%s %s\" action: %s"
 msgstr "Falha ao executar \"/etc/init.d/%s %s\" ação: %s"
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:2673
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:2632
 msgid "File"
 msgstr "Ficheiro"
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:2620
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:2579
 msgid "File not accessible"
 msgstr "Ficheiro não acessível"
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:2811
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:2770
 msgid "Filename"
 msgstr "Nome do ficheiro"
 
@@ -2300,18 +2281,15 @@ msgstr "Filtrar inúteis"
 
 #: protocols/luci-proto-bonding/htdocs/luci-static/resources/protocol/bonding.js:388
 msgid "Filtering for all slaves, no validation"
-msgstr "Filtragem para todos os escravos, sem validação"
+msgstr ""
 
 #: protocols/luci-proto-bonding/htdocs/luci-static/resources/protocol/bonding.js:389
 msgid "Filtering for all slaves, validation only for active slave"
 msgstr ""
-"Filtragem para todos os escravos, validação apenas para o escravo que esteja "
-"ativo"
 
 #: protocols/luci-proto-bonding/htdocs/luci-static/resources/protocol/bonding.js:390
 msgid "Filtering for all slaves, validation only for backup slaves"
 msgstr ""
-"Filtragem para todos os escravos, validação apenas para os escravos de backup"
 
 #: modules/luci-compat/luasrc/model/network/proto_ncm.lua:65
 #: protocols/luci-proto-ncm/htdocs/luci-static/resources/protocol/ncm.js:23
@@ -2324,8 +2302,7 @@ msgid ""
 "with defaults based on what was detected"
 msgstr ""
 "Encontre todos os sistemas de ficheiros e swap atualmente conectados e "
-"substitua a configuração com valores predefinidos baseados no que foi "
-"detetado"
+"substitua a configuração com valores padrão baseados no que foi detetado"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:820
 msgid "Find and join network"
@@ -2339,7 +2316,7 @@ msgstr "Terminar"
 msgid "Firewall"
 msgstr "Firewall"
 
-#: protocols/luci-proto-wireguard/htdocs/luci-static/resources/protocol/wireguard.js:102
+#: protocols/luci-proto-wireguard/htdocs/luci-static/resources/protocol/wireguard.js:82
 msgid "Firewall Mark"
 msgstr "Marca da Firewall"
 
@@ -2364,7 +2341,7 @@ msgid "Fixed source port for outbound DNS queries"
 msgstr "Porta fixa de origem para saída dos pedidos DNS"
 
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js:283
-#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js:421
+#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js:416
 msgid "Flash image..."
 msgstr "Fazer Flash da imagem..."
 
@@ -2372,7 +2349,7 @@ msgstr "Fazer Flash da imagem..."
 msgid "Flash image?"
 msgstr "Fazer Flash da imagem?"
 
-#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js:411
+#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js:406
 msgid "Flash new firmware image"
 msgstr "Fazer o flash de uma nova imagem do firmware"
 
@@ -2451,7 +2428,7 @@ msgstr "Modo de encaminhamento"
 msgid "Fragmentation Threshold"
 msgstr "Limiar de Fragmentação"
 
-#: protocols/luci-proto-wireguard/htdocs/luci-static/resources/protocol/wireguard.js:115
+#: protocols/luci-proto-wireguard/htdocs/luci-static/resources/protocol/wireguard.js:95
 msgid ""
 "Further information about WireGuard interfaces and peers at <a href='http://"
 "wireguard.com'>wireguard.com</a>."
@@ -2472,19 +2449,19 @@ msgstr "Só GPRS"
 
 #: protocols/luci-proto-gre/htdocs/luci-static/resources/protocol/gre.js:10
 msgid "GRE tunnel over IPv4"
-msgstr "Túnel GRE sobre IPv4"
+msgstr ""
 
 #: protocols/luci-proto-gre/htdocs/luci-static/resources/protocol/grev6.js:10
 msgid "GRE tunnel over IPv6"
-msgstr "Túnel GRE sobre IPv6"
+msgstr ""
 
 #: protocols/luci-proto-gre/htdocs/luci-static/resources/protocol/gretap.js:10
 msgid "GRETAP tunnel over IPv4"
-msgstr "Túnel GRETAP sobre IPv4"
+msgstr ""
 
 #: protocols/luci-proto-gre/htdocs/luci-static/resources/protocol/grev6tap.js:10
 msgid "GRETAP tunnel over IPv6"
-msgstr "Túnel GRETAP sobre IPv6"
+msgstr ""
 
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/include/30_network.js:44
 msgid "Gateway"
@@ -2499,7 +2476,7 @@ msgstr "Portas de gateway"
 msgid "Gateway address is invalid"
 msgstr "O endereço do gateway é inválido"
 
-#: protocols/luci-proto-modemmanager/htdocs/luci-static/resources/protocol/modemmanager.js:124
+#: protocols/luci-proto-modemmanager/htdocs/luci-static/resources/protocol/modemmanager.js:118
 msgid "Gateway metric"
 msgstr "Métrica de Gateway"
 
@@ -2521,10 +2498,6 @@ msgstr "Configuração Geral"
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/mounts.js:150
 msgid "Generate Config"
 msgstr "Gerar Configuração"
-
-#: protocols/luci-proto-wireguard/htdocs/luci-static/resources/protocol/wireguard.js:66
-msgid "Generate Key"
-msgstr "Gerar chave"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:1460
 msgid "Generate PMK locally"
@@ -2555,12 +2528,12 @@ msgstr "Opções de rede globais"
 msgid "Go to password configuration..."
 msgstr "Ir para a configuração da palavra-passe…"
 
-#: modules/luci-base/htdocs/luci-static/resources/form.js:2562
-#: modules/luci-base/htdocs/luci-static/resources/form.js:3336
+#: modules/luci-base/htdocs/luci-static/resources/form.js:2408
+#: modules/luci-base/htdocs/luci-static/resources/form.js:3168
 #: modules/luci-compat/luasrc/view/cbi/full_valueheader.htm:4
 #: modules/luci-compat/luasrc/view/cbi/tblsection.htm:58
 msgid "Go to relevant configuration page"
-msgstr "Ir para a página respetiva de configuração"
+msgstr "Ir para a página respectiva de configuração"
 
 #: modules/luci-mod-network/root/usr/share/rpcd/acl.d/luci-mod-network.json:33
 msgid "Grant access to DHCP configuration"
@@ -2577,10 +2550,6 @@ msgstr "Conceder acesso à visualização do estado de DSL"
 #: protocols/luci-proto-openconnect/root/usr/share/rpcd/acl.d/luci-openconnect.json:3
 msgid "Grant access to LuCI OpenConnect procedures"
 msgstr "Conceder acesso aos procedimentos do LuCI OpenConnect"
-
-#: protocols/luci-proto-wireguard/root/usr/share/rpcd/acl.d/luci-wireguard.json:3
-msgid "Grant access to LuCI Wireguard procedures"
-msgstr "Conceder acesso aos procedimentos da LuCI Wireguard"
 
 #: modules/luci-mod-system/root/usr/share/rpcd/acl.d/luci-mod-system.json:19
 msgid "Grant access to SSH configuration"
@@ -2751,17 +2720,17 @@ msgstr "Híbrido"
 #: protocols/luci-proto-vxlan/htdocs/luci-static/resources/protocol/vxlan.js:53
 #: protocols/luci-proto-vxlan/htdocs/luci-static/resources/protocol/vxlan6.js:48
 msgid "ID used to uniquely identify the VXLAN"
-msgstr "O ID utilizado para identificar de forma única o VXLAN"
+msgstr ""
 
 #: protocols/luci-proto-bonding/htdocs/luci-static/resources/protocol/bonding.js:206
 msgid "IEEE 802.3ad Dynamic link aggregation (802.3ad, 4)"
-msgstr "Agregação de link dinâmico IEEE 802.3ad (802.3ad, 4)"
+msgstr ""
 
 #: protocols/luci-proto-vpnc/htdocs/luci-static/resources/protocol/vpnc.js:75
 msgid "IKE DH Group"
 msgstr "Grupo DH do IKE"
 
-#: protocols/luci-proto-wireguard/htdocs/luci-static/resources/protocol/wireguard.js:83
+#: protocols/luci-proto-wireguard/htdocs/luci-static/resources/protocol/wireguard.js:63
 msgid "IP Addresses"
 msgstr "Endereços IP"
 
@@ -2769,7 +2738,7 @@ msgstr "Endereços IP"
 msgid "IP Protocol"
 msgstr "Protocolo IP"
 
-#: protocols/luci-proto-modemmanager/htdocs/luci-static/resources/protocol/modemmanager.js:114
+#: protocols/luci-proto-modemmanager/htdocs/luci-static/resources/protocol/modemmanager.js:108
 msgid "IP Type"
 msgstr "Tipo de IP"
 
@@ -2832,7 +2801,7 @@ msgstr "Máscara IPv4"
 msgid "IPv4 network in address/netmask notation"
 msgstr "Rede IPv4 em notação endereço/máscara de rede"
 
-#: protocols/luci-proto-modemmanager/htdocs/luci-static/resources/protocol/modemmanager.js:116
+#: protocols/luci-proto-modemmanager/htdocs/luci-static/resources/protocol/modemmanager.js:110
 msgid "IPv4 only"
 msgstr "Só IPv4"
 
@@ -2864,9 +2833,9 @@ msgstr "Gateway de IPv4"
 msgid "IPv4-in-IPv4 (RFC2003)"
 msgstr "IPv4-in-IPv4 (RFC2003)"
 
-#: protocols/luci-proto-modemmanager/htdocs/luci-static/resources/protocol/modemmanager.js:115
+#: protocols/luci-proto-modemmanager/htdocs/luci-static/resources/protocol/modemmanager.js:109
 msgid "IPv4/IPv6 (both - defaults to IPv4)"
-msgstr "IPv4/IPv6 (ambos - predefinição é IPv4)"
+msgstr "IPv4/IPv6 (ambos - padrão é IPv4)"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/diagnostics.js:80
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/diagnostics.js:103
@@ -2926,7 +2895,7 @@ msgstr "Gateway IPv6"
 msgid "IPv6 network in address/netmask notation"
 msgstr "Rede IPv6 em notação endereço/máscara de rede"
 
-#: protocols/luci-proto-modemmanager/htdocs/luci-static/resources/protocol/modemmanager.js:117
+#: protocols/luci-proto-modemmanager/htdocs/luci-static/resources/protocol/modemmanager.js:111
 msgid "IPv6 only"
 msgstr "Só IPv6"
 
@@ -2951,7 +2920,7 @@ msgstr "Sufixo IPv6"
 
 #: protocols/luci-proto-sstp/htdocs/luci-static/resources/protocol/sstp.js:51
 msgid "IPv6 support"
-msgstr "Suporte de IPv6"
+msgstr ""
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/dhcp.js:56
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/include/40_dhcp.js:57
@@ -2988,7 +2957,7 @@ msgstr "Se marcado, 1DES será ativada"
 
 #: protocols/luci-proto-sstp/htdocs/luci-static/resources/protocol/sstp.js:51
 msgid "If checked, adds \"+ipv6\" to the pppd options"
-msgstr "Se marcado, adiciona o \"+ipv6\" nas opções do pppd"
+msgstr ""
 
 #: protocols/luci-proto-vpnc/htdocs/luci-static/resources/protocol/vpnc.js:93
 msgid "If checked, encryption is disabled"
@@ -3073,7 +3042,7 @@ msgstr "Ignorar interface"
 msgid "Ignore resolve file"
 msgstr "Ignorar o ficheiro resolv.conf"
 
-#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js:419
+#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js:414
 msgid "Image"
 msgstr "Imagem"
 
@@ -3107,21 +3076,21 @@ msgstr "Entrada:"
 #: protocols/luci-proto-gre/htdocs/luci-static/resources/protocol/grev6.js:92
 #: protocols/luci-proto-gre/htdocs/luci-static/resources/protocol/grev6tap.js:97
 msgid "Incoming checksum"
-msgstr "Checksum da entrada"
+msgstr ""
 
 #: protocols/luci-proto-gre/htdocs/luci-static/resources/protocol/gre.js:82
 #: protocols/luci-proto-gre/htdocs/luci-static/resources/protocol/gretap.js:87
 #: protocols/luci-proto-gre/htdocs/luci-static/resources/protocol/grev6.js:84
 #: protocols/luci-proto-gre/htdocs/luci-static/resources/protocol/grev6tap.js:89
 msgid "Incoming key"
-msgstr "Chave da entrada"
+msgstr ""
 
 #: protocols/luci-proto-gre/htdocs/luci-static/resources/protocol/gre.js:92
 #: protocols/luci-proto-gre/htdocs/luci-static/resources/protocol/gretap.js:97
 #: protocols/luci-proto-gre/htdocs/luci-static/resources/protocol/grev6.js:94
 #: protocols/luci-proto-gre/htdocs/luci-static/resources/protocol/grev6tap.js:99
 msgid "Incoming serialization"
-msgstr "Entrada da serialização"
+msgstr ""
 
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/system.js:166
 msgid "Info"
@@ -3251,15 +3220,15 @@ msgstr "Erro Interno do Servidor"
 
 #: protocols/luci-proto-bonding/htdocs/luci-static/resources/protocol/bonding.js:283
 msgid "Interval For Sending Learning Packets"
-msgstr "Intervalo para o Envio dos Pacotes de Aprendizagem"
+msgstr ""
 
 #: modules/luci-compat/luasrc/view/cbi/tblsection.htm:192
 #: modules/luci-compat/luasrc/view/cbi/tsection.htm:42
 msgid "Invalid"
 msgstr "Inválido"
 
-#: protocols/luci-proto-wireguard/htdocs/luci-static/resources/protocol/wireguard.js:19
-#: protocols/luci-proto-wireguard/htdocs/luci-static/resources/protocol/wireguard.js:22
+#: protocols/luci-proto-wireguard/htdocs/luci-static/resources/protocol/wireguard.js:11
+#: protocols/luci-proto-wireguard/htdocs/luci-static/resources/protocol/wireguard.js:14
 msgid "Invalid Base64 key string"
 msgstr "Cadeia de caracteres Base64 inválida"
 
@@ -3276,19 +3245,11 @@ msgstr "O ID de VLAN fornecido é inválido! Só IDs únicos são permitidos"
 msgid "Invalid argument"
 msgstr "Argumento inválido"
 
-#: protocols/luci-proto-modemmanager/htdocs/luci-static/resources/protocol/modemmanager.js:46
-msgid ""
-"Invalid bearer list. Possibly too many bearers created. This protocol "
-"supports one and only one bearer."
-msgstr ""
-"Lista de portadores inválidos. Possivelmente, demasiados portadores foram "
-"criados. Este protocolo suporta apenas um portador."
-
 #: modules/luci-base/htdocs/luci-static/resources/rpc.js:405
 msgid "Invalid command"
 msgstr "Comando inválido"
 
-#: protocols/luci-proto-wireguard/htdocs/luci-static/resources/protocol/wireguard.js:106
+#: protocols/luci-proto-wireguard/htdocs/luci-static/resources/protocol/wireguard.js:86
 msgid "Invalid hexadecimal value"
 msgstr "Valor hexadecimal inválido"
 
@@ -3301,7 +3262,7 @@ msgstr "Username e/ou password inválidos! Por favor, tente novamente."
 #: protocols/luci-proto-gre/htdocs/luci-static/resources/protocol/grev6.js:76
 #: protocols/luci-proto-gre/htdocs/luci-static/resources/protocol/grev6tap.js:81
 msgid "Invalid value"
-msgstr "Valor inválido"
+msgstr ""
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:1075
 msgid "Isolate Clients"
@@ -3364,14 +3325,14 @@ msgstr "Chave #%d"
 #: protocols/luci-proto-gre/htdocs/luci-static/resources/protocol/grev6.js:84
 #: protocols/luci-proto-gre/htdocs/luci-static/resources/protocol/grev6tap.js:89
 msgid "Key for incoming packets (optional)."
-msgstr "Chave para os pacotes da entrada (opcional)."
+msgstr ""
 
 #: protocols/luci-proto-gre/htdocs/luci-static/resources/protocol/gre.js:86
 #: protocols/luci-proto-gre/htdocs/luci-static/resources/protocol/gretap.js:91
 #: protocols/luci-proto-gre/htdocs/luci-static/resources/protocol/grev6.js:88
 #: protocols/luci-proto-gre/htdocs/luci-static/resources/protocol/grev6tap.js:93
 msgid "Key for outgoing packets (optinal)."
-msgstr "Chave para os pacotes da saída (optinal)."
+msgstr ""
 
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/processes.js:54
 msgid "Kill"
@@ -3388,7 +3349,7 @@ msgstr "Servidor L2TP"
 
 #: protocols/luci-proto-bonding/htdocs/luci-static/resources/protocol/bonding.js:267
 msgid "LACPDU Packets"
-msgstr "Pacotes LACPDU"
+msgstr ""
 
 #: protocols/luci-proto-3g/htdocs/luci-static/resources/protocol/3g.js:131
 #: protocols/luci-proto-ppp/htdocs/luci-static/resources/protocol/ppp.js:115
@@ -3466,7 +3427,7 @@ msgstr "Deixar em branco para auto-detecção"
 msgid "Leave empty to use the current WAN address"
 msgstr "Deixar em branco para usar o endereço WAN actual"
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:4030
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:3989
 msgid "Legend:"
 msgstr "Legenda:"
 
@@ -3502,11 +3463,11 @@ msgstr "Tempo de Ativo da Linha"
 
 #: protocols/luci-proto-bonding/htdocs/luci-static/resources/protocol/bonding.js:123
 msgid "Link Aggregation (Channel Bonding)"
-msgstr "Agregação dos Enlaces (Ligação do Canal)"
+msgstr ""
 
 #: protocols/luci-proto-bonding/htdocs/luci-static/resources/protocol/bonding.js:348
 msgid "Link Monitoring"
-msgstr "Monitoramento do Enlace"
+msgstr ""
 
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/led-trigger/netdev.js:23
 msgid "Link On"
@@ -3566,7 +3527,7 @@ msgstr ""
 msgid "Listen Interfaces"
 msgstr "Interfaces de Escuta"
 
-#: protocols/luci-proto-wireguard/htdocs/luci-static/resources/protocol/wireguard.js:78
+#: protocols/luci-proto-wireguard/htdocs/luci-static/resources/protocol/wireguard.js:58
 msgid "Listen Port"
 msgstr "Porta de Escuta"
 
@@ -3582,13 +3543,13 @@ msgstr "Porta de escuta para entrada de consultas DNS"
 #: modules/luci-mod-status/root/usr/share/luci/menu.d/luci-mod-status.json:87
 #: themes/luci-theme-openwrt/luasrc/view/themes/openwrt.org/header.htm:54
 msgid "Load"
-msgstr "Carga"
+msgstr "Carregar"
 
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/include/10_system.js:61
 msgid "Load Average"
 msgstr "Carga Média"
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:2938
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:2897
 msgid "Loading directory contents…"
 msgstr "Carregando o conteúdo do diretório…"
 
@@ -3696,13 +3657,11 @@ msgid ""
 "Logical network from which to select the local endpoint if local IPv6 "
 "address is empty and no WAN IPv6 is available (optional)."
 msgstr ""
-"Rede lógica a partir de onde selecionar o ponto final local caso o endereço "
-"IPv6 local esteja vazio e não haja um IPv6 WAN disponível (opcional)."
 
 #: protocols/luci-proto-gre/htdocs/luci-static/resources/protocol/gretap.js:50
 #: protocols/luci-proto-gre/htdocs/luci-static/resources/protocol/grev6tap.js:55
 msgid "Logical network to which the tunnel will be added (bridged) (optional)."
-msgstr "Rede lógica onde o túnel será adicionado (bridged) (opcional)."
+msgstr ""
 
 #: modules/luci-base/luasrc/view/sysauth.htm:38
 msgid "Login"
@@ -3729,7 +3688,7 @@ msgstr "MAC"
 
 #: protocols/luci-proto-bonding/htdocs/luci-static/resources/protocol/bonding.js:251
 msgid "MAC Address For The Actor"
-msgstr "Endereço MAC Para o Ator"
+msgstr ""
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/dhcp.js:38
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2069
@@ -3780,19 +3739,19 @@ msgstr "MHz"
 
 #: protocols/luci-proto-bonding/htdocs/luci-static/resources/protocol/bonding.js:353
 msgid "MII"
-msgstr "MII"
+msgstr ""
 
 #: protocols/luci-proto-bonding/htdocs/luci-static/resources/protocol/bonding.js:421
 msgid "MII / ETHTOOL ioctls"
-msgstr "MII / ETHTOOL ioctls"
+msgstr ""
 
 #: protocols/luci-proto-bonding/htdocs/luci-static/resources/protocol/bonding.js:394
 msgid "MII Interval"
-msgstr "Intervalo MII"
+msgstr ""
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/routes.js:54
 #: protocols/luci-proto-vpnc/htdocs/luci-static/resources/protocol/vpnc.js:53
-#: protocols/luci-proto-wireguard/htdocs/luci-static/resources/protocol/wireguard.js:97
+#: protocols/luci-proto-wireguard/htdocs/luci-static/resources/protocol/wireguard.js:77
 msgid "MTU"
 msgstr "MTU"
 
@@ -3814,7 +3773,7 @@ msgstr ""
 msgid "Manual"
 msgstr "Manual"
 
-#: modules/luci-base/htdocs/luci-static/resources/network.js:3664
+#: modules/luci-base/htdocs/luci-static/resources/network.js:3648
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:642
 msgid "Master"
 msgstr "Mestre"
@@ -3879,7 +3838,7 @@ msgstr "Memória"
 msgid "Memory usage (%)"
 msgstr "Uso de memória (%)"
 
-#: modules/luci-base/htdocs/luci-static/resources/network.js:3667
+#: modules/luci-base/htdocs/luci-static/resources/network.js:3651
 msgid "Mesh"
 msgstr "Mesh"
 
@@ -3897,22 +3856,22 @@ msgstr "Método não encontrado"
 
 #: protocols/luci-proto-bonding/htdocs/luci-static/resources/protocol/bonding.js:349
 msgid "Method of link monitoring"
-msgstr "Método de monitoramento de enlace"
+msgstr ""
 
 #: protocols/luci-proto-bonding/htdocs/luci-static/resources/protocol/bonding.js:418
 msgid "Method to determine link status"
-msgstr "Método para determinar a condição do enlace"
+msgstr ""
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/routes.js:46
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/routes.js:165
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/routes.js:183
-#: protocols/luci-proto-wireguard/htdocs/luci-static/resources/protocol/wireguard.js:92
+#: protocols/luci-proto-wireguard/htdocs/luci-static/resources/protocol/wireguard.js:72
 msgid "Metric"
 msgstr "Métrica"
 
 #: protocols/luci-proto-bonding/htdocs/luci-static/resources/protocol/bonding.js:235
 msgid "Minimum Number of Links"
-msgstr "Quantidade Mínima de Enlaces"
+msgstr ""
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/switch.js:202
 msgid "Mirror monitor port"
@@ -3944,33 +3903,17 @@ msgstr "Modo"
 msgid "Model"
 msgstr "Modelo"
 
-#: protocols/luci-proto-modemmanager/htdocs/luci-static/resources/protocol/modemmanager.js:43
-msgid "Modem bearer teardown in progress."
-msgstr "Desligamento do portador do modem em andamento."
-
-#: protocols/luci-proto-modemmanager/htdocs/luci-static/resources/protocol/modemmanager.js:42
-msgid ""
-"Modem connection in progress. Please wait. This process will timeout after 2 "
-"minutes."
-msgstr ""
-"Conexão do modem em andamento. Por favor, espere. Este processo atingirá o "
-"tempo limite depois de 2 minutos."
-
 #: protocols/luci-proto-ncm/htdocs/luci-static/resources/protocol/ncm.js:72
 msgid "Modem default"
-msgstr "Predefinição do modem"
+msgstr "Padrão do modem"
 
 #: protocols/luci-proto-3g/htdocs/luci-static/resources/protocol/3g.js:73
-#: protocols/luci-proto-modemmanager/htdocs/luci-static/resources/protocol/modemmanager.js:82
+#: protocols/luci-proto-modemmanager/htdocs/luci-static/resources/protocol/modemmanager.js:76
 #: protocols/luci-proto-ncm/htdocs/luci-static/resources/protocol/ncm.js:61
 #: protocols/luci-proto-ppp/htdocs/luci-static/resources/protocol/ppp.js:73
 #: protocols/luci-proto-qmi/htdocs/luci-static/resources/protocol/qmi.js:57
 msgid "Modem device"
 msgstr "Aparelho do modem"
-
-#: protocols/luci-proto-modemmanager/htdocs/luci-static/resources/protocol/modemmanager.js:41
-msgid "Modem disconnection in progress. Please wait."
-msgstr "Desconexão do modem em andamento. Por favor, espere."
 
 #: modules/luci-compat/luasrc/model/network/proto_ncm.lua:66
 #: protocols/luci-proto-ncm/htdocs/luci-static/resources/protocol/ncm.js:24
@@ -3983,15 +3926,11 @@ msgstr "A consulta das informações do modem falhou"
 msgid "Modem init timeout"
 msgstr "Estouro de tempo da iniciação do modem"
 
-#: protocols/luci-proto-modemmanager/htdocs/luci-static/resources/protocol/modemmanager.js:44
-msgid "Modem is disabled."
-msgstr "O modem está desativado."
-
-#: protocols/luci-proto-modemmanager/htdocs/luci-static/resources/protocol/modemmanager.js:52
+#: protocols/luci-proto-modemmanager/htdocs/luci-static/resources/protocol/modemmanager.js:46
 msgid "ModemManager"
 msgstr "ModemManager"
 
-#: modules/luci-base/htdocs/luci-static/resources/network.js:3668
+#: modules/luci-base/htdocs/luci-static/resources/network.js:3652
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:1005
 msgid "Monitor"
 msgstr "Monitor"
@@ -4000,7 +3939,7 @@ msgstr "Monitor"
 msgid "More Characters"
 msgstr "Mais Caracteres"
 
-#: modules/luci-base/htdocs/luci-static/resources/form.js:2504
+#: modules/luci-base/htdocs/luci-static/resources/form.js:2350
 msgid "More…"
 msgstr "Mais…"
 
@@ -4091,8 +4030,8 @@ msgstr "Domínio NT"
 msgid "NTP server candidates"
 msgstr "Candidatos a servidor NTP"
 
-#: modules/luci-base/htdocs/luci-static/resources/form.js:2542
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:3785
+#: modules/luci-base/htdocs/luci-static/resources/form.js:2388
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:3744
 #: modules/luci-compat/luasrc/view/cbi/tblsection.htm:27
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:710
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/leds.js:67
@@ -4139,7 +4078,7 @@ msgstr "O aparelho de rede não está presente"
 #: protocols/luci-proto-gre/htdocs/luci-static/resources/protocol/gretap.js:50
 #: protocols/luci-proto-gre/htdocs/luci-static/resources/protocol/grev6tap.js:55
 msgid "Network interface"
-msgstr "Interfaces de rede"
+msgstr ""
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:777
 msgid "New interface for \"%s\" can not be created: %s"
@@ -4153,7 +4092,7 @@ msgstr "Novo nome de interface…"
 msgid "Next »"
 msgstr "Seguinte »"
 
-#: modules/luci-base/htdocs/luci-static/resources/form.js:3643
+#: modules/luci-base/htdocs/luci-static/resources/form.js:3472
 #: protocols/luci-proto-bonding/htdocs/luci-static/resources/protocol/bonding.js:296
 #: protocols/luci-proto-bonding/htdocs/luci-static/resources/protocol/bonding.js:345
 #: protocols/luci-proto-vpnc/htdocs/luci-static/resources/protocol/vpnc.js:108
@@ -4168,7 +4107,7 @@ msgstr "Sem Servidor DHCP configurado nesta interface"
 msgid "No Encryption"
 msgstr "Sem criptografia"
 
-#: protocols/luci-proto-wireguard/htdocs/luci-static/resources/protocol/wireguard.js:87
+#: protocols/luci-proto-wireguard/htdocs/luci-static/resources/protocol/wireguard.js:67
 msgid "No Host Routes"
 msgstr "Sem Rotas de Host"
 
@@ -4188,7 +4127,7 @@ msgstr "Nenhum cliente associado"
 msgid "No data received"
 msgstr "Nenhuns dados recebidos"
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:2878
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:2837
 msgid "No entries in this directory"
 msgstr "Não há entradas neste diretório"
 
@@ -4201,7 +4140,7 @@ msgstr "Não foram encontrados ficheiros"
 #: protocols/luci-proto-gre/htdocs/luci-static/resources/protocol/grev6.js:81
 #: protocols/luci-proto-gre/htdocs/luci-static/resources/protocol/grev6tap.js:86
 msgid "No host route"
-msgstr "Nenhuma rota para o host"
+msgstr ""
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:674
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/connections.js:142
@@ -4218,11 +4157,11 @@ msgstr "Não casou com nenhum prefixo delegado"
 #: protocols/luci-proto-bonding/htdocs/luci-static/resources/protocol/bonding.js:140
 #: protocols/luci-proto-bonding/htdocs/luci-static/resources/protocol/bonding.js:143
 msgid "No more slaves available"
-msgstr "Não há mais escravos disponíveis"
+msgstr ""
 
 #: protocols/luci-proto-bonding/htdocs/luci-static/resources/protocol/bonding.js:187
 msgid "No more slaves available, can not save interface"
-msgstr "Não há mais escravos disponíveis, não é possível gravar a interface"
+msgstr ""
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/dhcp.js:251
 msgid "No negative cache"
@@ -4236,7 +4175,7 @@ msgstr "Sem cache negativa"
 msgid "No password set!"
 msgstr "Sem password definida!"
 
-#: protocols/luci-proto-wireguard/htdocs/luci-static/resources/protocol/wireguard.js:130
+#: protocols/luci-proto-wireguard/htdocs/luci-static/resources/protocol/wireguard.js:110
 msgid "No peers defined yet"
 msgstr "Ainda não há pares definidos"
 
@@ -4251,7 +4190,7 @@ msgstr "Não há regras nesta cadeia."
 
 #: protocols/luci-proto-bonding/htdocs/luci-static/resources/protocol/bonding.js:384
 msgid "No validation or filtering"
-msgstr "Sem validação ou filtragem"
+msgstr ""
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:152
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:825
@@ -4288,7 +4227,7 @@ msgstr "Sem caracter curinga"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:159
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:183
-#: protocols/luci-proto-modemmanager/htdocs/luci-static/resources/protocol/modemmanager.js:100
+#: protocols/luci-proto-modemmanager/htdocs/luci-static/resources/protocol/modemmanager.js:94
 msgid "None"
 msgstr "Nenhum"
 
@@ -4334,7 +4273,7 @@ msgstr "Nslookup"
 
 #: protocols/luci-proto-bonding/htdocs/luci-static/resources/protocol/bonding.js:332
 msgid "Number of IGMP membership reports"
-msgstr "Quantidade de relatórios associados ao IGMP"
+msgstr ""
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/dhcp.js:355
 msgid "Number of cached DNS entries (max is 10000, 0 is no caching)"
@@ -4347,7 +4286,7 @@ msgstr "Quantidade de threads paralelas utilizadas para compressão"
 
 #: protocols/luci-proto-bonding/htdocs/luci-static/resources/protocol/bonding.js:309
 msgid "Number of peer notifications after failover event"
-msgstr "Quantidade de notificações por pares após o evento failover"
+msgstr ""
 
 #: protocols/luci-proto-vpnc/htdocs/luci-static/resources/protocol/vpnc.js:69
 msgid "Obfuscated Group Password"
@@ -4404,7 +4343,7 @@ msgstr "Um ou mais campos contêm valores inválidos!"
 
 #: modules/luci-compat/luasrc/view/cbi/map.htm:32
 msgid "One or more invalid/required values on tab"
-msgstr "Um ou mais valores inválidos/obrigatórios na guia"
+msgstr "Um ou mais valores inválidos/obrigatórios na aba"
 
 #: modules/luci-compat/luasrc/view/cbi/nullsection.htm:19
 #: modules/luci-compat/luasrc/view/cbi/ucisection.htm:24
@@ -4415,10 +4354,8 @@ msgstr "Um ou mais campos obrigatórios não têm valores!"
 msgid ""
 "Only if current active slave fails and the primary slave is up (failure, 2)"
 msgstr ""
-"Somente caso o escravo ativo atual falhe e o escravo primário esteja ativo "
-"(falha, 2)"
 
-#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js:444
+#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js:439
 #: modules/luci-mod-system/luasrc/model/cbi/admin_system/backupfiles.lua:19
 msgid "Open list..."
 msgstr "Abrir lista..."
@@ -4432,29 +4369,29 @@ msgstr "OpenConnect (CISCO AnyConnect)"
 msgid "Operating frequency"
 msgstr "Frequência de Operação"
 
-#: modules/luci-base/htdocs/luci-static/resources/form.js:1971
-#: modules/luci-base/htdocs/luci-static/resources/form.js:3653
+#: modules/luci-base/htdocs/luci-static/resources/form.js:1817
+#: modules/luci-base/htdocs/luci-static/resources/form.js:3482
 msgid "Option \"%s\" contains an invalid input value."
 msgstr "A opção \"%s\" contém um valor de entrada inválido."
 
-#: modules/luci-base/htdocs/luci-static/resources/form.js:1984
+#: modules/luci-base/htdocs/luci-static/resources/form.js:1830
 msgid "Option \"%s\" must not be empty."
 msgstr "A opção \"%s\" não deve estar vazia."
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:4037
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:3996
 msgid "Option changed"
 msgstr "Opção alterada"
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:4039
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:3998
 msgid "Option removed"
 msgstr "Opção removida"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:1609
-#: protocols/luci-proto-wireguard/htdocs/luci-static/resources/protocol/wireguard.js:92
+#: protocols/luci-proto-wireguard/htdocs/luci-static/resources/protocol/wireguard.js:72
 msgid "Optional"
 msgstr "Opcional"
 
-#: protocols/luci-proto-wireguard/htdocs/luci-static/resources/protocol/wireguard.js:102
+#: protocols/luci-proto-wireguard/htdocs/luci-static/resources/protocol/wireguard.js:82
 msgid ""
 "Optional. 32-bit mark for outgoing encrypted packets. Enter value in hex, "
 "starting with <code>0x</code>."
@@ -4474,7 +4411,7 @@ msgstr ""
 "um servidor, use este sufixo (como '::1') para formar o endereço IPv6 ('a:b:"
 "c:d::1') para esta interface."
 
-#: protocols/luci-proto-wireguard/htdocs/luci-static/resources/protocol/wireguard.js:143
+#: protocols/luci-proto-wireguard/htdocs/luci-static/resources/protocol/wireguard.js:123
 msgid ""
 "Optional. Base64-encoded preshared key. Adds in an additional layer of "
 "symmetric-key cryptography for post-quantum resistance."
@@ -4482,19 +4419,19 @@ msgstr ""
 "Opcional. Adiciona uma camada extra de cifragem simétrica para resistência "
 "pós quântica."
 
-#: protocols/luci-proto-wireguard/htdocs/luci-static/resources/protocol/wireguard.js:159
+#: protocols/luci-proto-wireguard/htdocs/luci-static/resources/protocol/wireguard.js:139
 msgid "Optional. Create routes for Allowed IPs for this peer."
 msgstr "Opcional. Cria rotas para endereços IP Autorizados para este parceiro."
 
-#: protocols/luci-proto-wireguard/htdocs/luci-static/resources/protocol/wireguard.js:134
+#: protocols/luci-proto-wireguard/htdocs/luci-static/resources/protocol/wireguard.js:114
 msgid "Optional. Description of peer."
 msgstr "Opcional. Descrição do parceiro."
 
-#: protocols/luci-proto-wireguard/htdocs/luci-static/resources/protocol/wireguard.js:87
+#: protocols/luci-proto-wireguard/htdocs/luci-static/resources/protocol/wireguard.js:67
 msgid "Optional. Do not create host routes to peers."
 msgstr "Opcional. Não criar rotas de acolhimento para os seus pares."
 
-#: protocols/luci-proto-wireguard/htdocs/luci-static/resources/protocol/wireguard.js:161
+#: protocols/luci-proto-wireguard/htdocs/luci-static/resources/protocol/wireguard.js:141
 msgid ""
 "Optional. Host of peer. Names are resolved prior to bringing up the "
 "interface."
@@ -4502,24 +4439,24 @@ msgstr ""
 "Opcional. Equipamento do parceiro. Nomes serão resolvido antes de levantar a "
 "interface."
 
-#: protocols/luci-proto-wireguard/htdocs/luci-static/resources/protocol/wireguard.js:97
+#: protocols/luci-proto-wireguard/htdocs/luci-static/resources/protocol/wireguard.js:77
 msgid "Optional. Maximum Transmission Unit of tunnel interface."
 msgstr "Opcional. Unidade Máxima de Transmissão da interface do túnel."
 
-#: protocols/luci-proto-wireguard/htdocs/luci-static/resources/protocol/wireguard.js:165
+#: protocols/luci-proto-wireguard/htdocs/luci-static/resources/protocol/wireguard.js:145
 msgid "Optional. Port of peer."
 msgstr "Opcional. Porta do parceiro."
 
-#: protocols/luci-proto-wireguard/htdocs/luci-static/resources/protocol/wireguard.js:169
+#: protocols/luci-proto-wireguard/htdocs/luci-static/resources/protocol/wireguard.js:149
 msgid ""
 "Optional. Seconds between keep alive messages. Default is 0 (disabled). "
 "Recommended value if this device is behind a NAT is 25."
 msgstr ""
-"Opcional. Segundos entre mensagens para manutenção da conexão. A "
-"predefinição é 0 (desativado). O valor recomendado caso este aparelho esteja "
-"atrás de uma NAT é 25."
+"Opcional. Segundos entre mensagens para manutenção da conexão. O padrão é 0 "
+"(desativado). O valor recomendado caso este aparelho esteja atrás de uma NAT "
+"é 25."
 
-#: protocols/luci-proto-wireguard/htdocs/luci-static/resources/protocol/wireguard.js:78
+#: protocols/luci-proto-wireguard/htdocs/luci-static/resources/protocol/wireguard.js:58
 msgid "Optional. UDP port used for outgoing and incoming packets."
 msgstr "Opcional. Porta UDP usada para pacotes saintes ou entrantes."
 
@@ -4544,21 +4481,21 @@ msgstr "Saída:"
 #: protocols/luci-proto-gre/htdocs/luci-static/resources/protocol/grev6.js:93
 #: protocols/luci-proto-gre/htdocs/luci-static/resources/protocol/grev6tap.js:98
 msgid "Outgoing checksum"
-msgstr "Checksum de saída"
+msgstr ""
 
 #: protocols/luci-proto-gre/htdocs/luci-static/resources/protocol/gre.js:86
 #: protocols/luci-proto-gre/htdocs/luci-static/resources/protocol/gretap.js:91
 #: protocols/luci-proto-gre/htdocs/luci-static/resources/protocol/grev6.js:88
 #: protocols/luci-proto-gre/htdocs/luci-static/resources/protocol/grev6tap.js:93
 msgid "Outgoing key"
-msgstr "Chave de Saída"
+msgstr ""
 
 #: protocols/luci-proto-gre/htdocs/luci-static/resources/protocol/gre.js:93
 #: protocols/luci-proto-gre/htdocs/luci-static/resources/protocol/gretap.js:98
 #: protocols/luci-proto-gre/htdocs/luci-static/resources/protocol/grev6.js:95
 #: protocols/luci-proto-gre/htdocs/luci-static/resources/protocol/grev6tap.js:100
 msgid "Outgoing serialization"
-msgstr "Serialização de saída"
+msgstr ""
 
 #: protocols/luci-proto-vpnc/htdocs/luci-static/resources/protocol/vpnc.js:50
 msgid "Output Interface"
@@ -4587,7 +4524,7 @@ msgstr "Sobrescrever o endereço MAC"
 #: protocols/luci-proto-hnet/htdocs/luci-static/resources/protocol/hnet.js:44
 #: protocols/luci-proto-ipip/htdocs/luci-static/resources/protocol/ipip.js:53
 #: protocols/luci-proto-ipv6/htdocs/luci-static/resources/protocol/dhcpv6.js:54
-#: protocols/luci-proto-modemmanager/htdocs/luci-static/resources/protocol/modemmanager.js:120
+#: protocols/luci-proto-modemmanager/htdocs/luci-static/resources/protocol/modemmanager.js:114
 #: protocols/luci-proto-openconnect/htdocs/luci-static/resources/protocol/openconnect.js:158
 #: protocols/luci-proto-ppp/htdocs/luci-static/resources/protocol/l2tp.js:71
 #: protocols/luci-proto-ppp/htdocs/luci-static/resources/protocol/ppp.js:145
@@ -4627,7 +4564,7 @@ msgstr "Sobrescrever o nome da nova interface"
 
 #: protocols/luci-proto-relay/htdocs/luci-static/resources/protocol/relay.js:167
 msgid "Override the gateway in DHCP responses"
-msgstr "Sobrescrever o gateway nas respostas do DHCP"
+msgstr "Sobrescrever o roteador padrão nas respostas do DHCP"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:603
 msgid ""
@@ -4646,7 +4583,7 @@ msgstr "Sobrescrever a tabela usada para as rotas internas"
 msgid "Overview"
 msgstr "Visão Geral"
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:2721
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:2680
 msgid "Overwrite existing file \"%s\" ?"
 msgstr "Sustituir o ficheiro existente \"%s\" ?"
 
@@ -4654,12 +4591,12 @@ msgstr "Sustituir o ficheiro existente \"%s\" ?"
 msgid "Owner"
 msgstr "Dono"
 
-#: protocols/luci-proto-modemmanager/htdocs/luci-static/resources/protocol/modemmanager.js:97
+#: protocols/luci-proto-modemmanager/htdocs/luci-static/resources/protocol/modemmanager.js:91
 msgid "PAP/CHAP (both)"
 msgstr "PAP/CHAP (ambos)"
 
 #: protocols/luci-proto-3g/htdocs/luci-static/resources/protocol/3g.js:98
-#: protocols/luci-proto-modemmanager/htdocs/luci-static/resources/protocol/modemmanager.js:108
+#: protocols/luci-proto-modemmanager/htdocs/luci-static/resources/protocol/modemmanager.js:102
 #: protocols/luci-proto-ncm/htdocs/luci-static/resources/protocol/ncm.js:90
 #: protocols/luci-proto-ppp/htdocs/luci-static/resources/protocol/l2tp.js:45
 #: protocols/luci-proto-ppp/htdocs/luci-static/resources/protocol/ppp.js:89
@@ -4672,7 +4609,7 @@ msgid "PAP/CHAP password"
 msgstr "Password PAP/CHAP"
 
 #: protocols/luci-proto-3g/htdocs/luci-static/resources/protocol/3g.js:96
-#: protocols/luci-proto-modemmanager/htdocs/luci-static/resources/protocol/modemmanager.js:103
+#: protocols/luci-proto-modemmanager/htdocs/luci-static/resources/protocol/modemmanager.js:97
 #: protocols/luci-proto-ncm/htdocs/luci-static/resources/protocol/ncm.js:88
 #: protocols/luci-proto-ppp/htdocs/luci-static/resources/protocol/l2tp.js:43
 #: protocols/luci-proto-ppp/htdocs/luci-static/resources/protocol/ppp.js:87
@@ -4693,7 +4630,7 @@ msgid "PID"
 msgstr "PID"
 
 #: protocols/luci-proto-3g/htdocs/luci-static/resources/protocol/3g.js:95
-#: protocols/luci-proto-modemmanager/htdocs/luci-static/resources/protocol/modemmanager.js:94
+#: protocols/luci-proto-modemmanager/htdocs/luci-static/resources/protocol/modemmanager.js:88
 #: protocols/luci-proto-ncm/htdocs/luci-static/resources/protocol/ncm.js:87
 #: protocols/luci-proto-qmi/htdocs/luci-static/resources/protocol/qmi.js:68
 msgid "PIN"
@@ -4759,7 +4696,7 @@ msgstr "Pacotes"
 
 #: protocols/luci-proto-bonding/htdocs/luci-static/resources/protocol/bonding.js:275
 msgid "Packets To Transmit Before Moving To Next Slave"
-msgstr "Pacotes para Serem Transmitidos Antes de Passar para o Próximo Escravo"
+msgstr ""
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:152
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:825
@@ -4852,7 +4789,7 @@ msgstr "Endereço IP do parceiro para atribuir"
 msgid "Peer address is missing"
 msgstr "O endereço do parceiro está ausente"
 
-#: protocols/luci-proto-wireguard/htdocs/luci-static/resources/protocol/wireguard.js:115
+#: protocols/luci-proto-wireguard/htdocs/luci-static/resources/protocol/wireguard.js:95
 msgid "Peers"
 msgstr "Parceiros"
 
@@ -4865,7 +4802,7 @@ msgstr "Sigilo Encaminhado Perfeito"
 #: protocols/luci-proto-gre/htdocs/luci-static/resources/protocol/grev6.js:95
 #: protocols/luci-proto-gre/htdocs/luci-static/resources/protocol/grev6tap.js:100
 msgid "Perform outgoing packets serialization (optional)."
-msgstr "Realizar a serialização dos pacotes na saída (opcional)."
+msgstr ""
 
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/reboot.js:28
 msgid "Perform reboot"
@@ -4879,7 +4816,7 @@ msgstr "Executar reset"
 msgid "Permission denied"
 msgstr "Permissão negada"
 
-#: protocols/luci-proto-wireguard/htdocs/luci-static/resources/protocol/wireguard.js:169
+#: protocols/luci-proto-wireguard/htdocs/luci-static/resources/protocol/wireguard.js:149
 msgid "Persistent Keep Alive"
 msgstr "Manutenção da Conexão Persistente"
 
@@ -4910,7 +4847,7 @@ msgstr "Pcts."
 msgid "Please enter your username and password."
 msgstr "Insira o seu username e password."
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:3768
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:3727
 msgid "Please select the file to upload."
 msgstr "Por favor selecione o ficheiro para upload."
 
@@ -4951,7 +4888,7 @@ msgstr "Preferir UMTS"
 msgid "Prefix Delegated"
 msgstr "Prefixo Delegado"
 
-#: protocols/luci-proto-wireguard/htdocs/luci-static/resources/protocol/wireguard.js:143
+#: protocols/luci-proto-wireguard/htdocs/luci-static/resources/protocol/wireguard.js:123
 msgid "Preshared Key"
 msgstr "Chave Compartilhada"
 
@@ -4978,21 +4915,19 @@ msgstr "Impede a comunicação cliente-a-cliente"
 
 #: protocols/luci-proto-bonding/htdocs/luci-static/resources/protocol/bonding.js:211
 msgid "Primary Slave"
-msgstr "Escravo Primário"
+msgstr ""
 
 #: protocols/luci-proto-bonding/htdocs/luci-static/resources/protocol/bonding.js:228
 msgid ""
 "Primary becomes active slave when it comes back up if speed and duplex "
 "better than current slave (better, 1)"
 msgstr ""
-"O primário torna-se um escravo ativo quando ele retorna, caso a velocidade e "
-"o duplex sejam melhores que o escravo atual (melhor, 1)"
 
 #: protocols/luci-proto-bonding/htdocs/luci-static/resources/protocol/bonding.js:227
 msgid "Primary becomes active slave whenever it comes back up (always, 0)"
-msgstr "O primário torna-se um escravo ativo sempre que retornar (sempre, 0)"
+msgstr ""
 
-#: protocols/luci-proto-wireguard/htdocs/luci-static/resources/protocol/wireguard.js:61
+#: protocols/luci-proto-wireguard/htdocs/luci-static/resources/protocol/wireguard.js:53
 msgid "Private Key"
 msgstr "Chave Privada"
 
@@ -5029,7 +4964,7 @@ msgstr "Prover nova rede"
 msgid "Pseudo Ad-Hoc (ahdemo)"
 msgstr "Ad-Hoc Falso (ahdemo)"
 
-#: protocols/luci-proto-wireguard/htdocs/luci-static/resources/protocol/wireguard.js:139
+#: protocols/luci-proto-wireguard/htdocs/luci-static/resources/protocol/wireguard.js:119
 msgid "Public Key"
 msgstr "Chave Pública"
 
@@ -5174,7 +5109,7 @@ msgstr "Reinicia o seu aparelho"
 msgid "Receive"
 msgstr "Receber"
 
-#: protocols/luci-proto-wireguard/htdocs/luci-static/resources/protocol/wireguard.js:83
+#: protocols/luci-proto-wireguard/htdocs/luci-static/resources/protocol/wireguard.js:63
 msgid "Recommended. IP addresses of the WireGuard interface."
 msgstr "Recomendado. Endereços IP da interface do WireGuard."
 
@@ -5223,12 +5158,12 @@ msgstr "Endereço IPv4 remoto ou FQDN"
 
 #: protocols/luci-proto-vxlan/htdocs/luci-static/resources/protocol/vxlan6.js:40
 msgid "Remote IPv6 address"
-msgstr "Endereço IPV6 remoto"
+msgstr ""
 
 #: protocols/luci-proto-gre/htdocs/luci-static/resources/protocol/grev6.js:42
 #: protocols/luci-proto-gre/htdocs/luci-static/resources/protocol/grev6tap.js:42
 msgid "Remote IPv6 address or FQDN"
-msgstr "Endereço IPv6 remoto ou FQDN"
+msgstr ""
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:849
 msgid "Remove"
@@ -5255,14 +5190,14 @@ msgstr "Tempo limite do pedido"
 #: protocols/luci-proto-gre/htdocs/luci-static/resources/protocol/grev6.js:92
 #: protocols/luci-proto-gre/htdocs/luci-static/resources/protocol/grev6tap.js:97
 msgid "Require incoming checksum (optional)."
-msgstr "Exigir o checkum na entrada (opcional)."
+msgstr ""
 
 #: protocols/luci-proto-gre/htdocs/luci-static/resources/protocol/gre.js:92
 #: protocols/luci-proto-gre/htdocs/luci-static/resources/protocol/gretap.js:97
 #: protocols/luci-proto-gre/htdocs/luci-static/resources/protocol/grev6.js:94
 #: protocols/luci-proto-gre/htdocs/luci-static/resources/protocol/grev6tap.js:99
 msgid "Require incoming packets serialization (optional)."
-msgstr "Exigir a serialização dos pacotes na entrada (opcional)."
+msgstr ""
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:1610
 msgid "Required"
@@ -5272,15 +5207,15 @@ msgstr "Necessário"
 msgid "Required for certain ISPs, e.g. Charter with DOCSIS 3"
 msgstr "Necessário para certos ISPs, p.ex. Charter with DOCSIS 3"
 
-#: protocols/luci-proto-wireguard/htdocs/luci-static/resources/protocol/wireguard.js:61
+#: protocols/luci-proto-wireguard/htdocs/luci-static/resources/protocol/wireguard.js:53
 msgid "Required. Base64-encoded private key for this interface."
 msgstr "Obrigatório. Chave privada codificada em Base64 para esta interface."
 
-#: protocols/luci-proto-wireguard/htdocs/luci-static/resources/protocol/wireguard.js:139
+#: protocols/luci-proto-wireguard/htdocs/luci-static/resources/protocol/wireguard.js:119
 msgid "Required. Base64-encoded public key of peer."
 msgstr "Necessário. Chave Pública do parceiro codificada como Base64."
 
-#: protocols/luci-proto-wireguard/htdocs/luci-static/resources/protocol/wireguard.js:148
+#: protocols/luci-proto-wireguard/htdocs/luci-static/resources/protocol/wireguard.js:128
 msgid ""
 "Required. IP addresses and prefixes that this peer is allowed to use inside "
 "the tunnel. Usually the peer's tunnel IP addresses and the networks the peer "
@@ -5318,7 +5253,7 @@ msgstr "Requer hostapd com suporte de SAE"
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:1237
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:1238
 msgid "Requires hostapd with WEP support"
-msgstr "Requer hostapd com suporte WEP"
+msgstr ""
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:1607
 msgid ""
@@ -5368,11 +5303,11 @@ msgstr "Requer wpa-supplicant com suporte de SAE"
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:1251
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:1252
 msgid "Requires wpa-supplicant with WEP support"
-msgstr "Requer wpa-supplicant com suporte WEP"
+msgstr ""
 
 #: protocols/luci-proto-bonding/htdocs/luci-static/resources/protocol/bonding.js:224
 msgid "Reselection policy for primary slave"
-msgstr "Política de nova seleção para o escravo primário"
+msgstr ""
 
 #: modules/luci-base/htdocs/luci-static/resources/luci.js:2203
 #: modules/luci-base/luasrc/view/sysauth.htm:39
@@ -5388,7 +5323,7 @@ msgstr "Limpar contadores"
 
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js:376
 msgid "Reset to defaults"
-msgstr "Redefinir para os valores predefinidos"
+msgstr "Redefinir para os valores padrão"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/dhcp.js:162
 msgid "Resolv and Hosts Files"
@@ -5424,25 +5359,25 @@ msgstr "Restauração"
 msgid "Restore backup"
 msgstr "Restaurar backup"
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:371
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:372
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:330
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:331
 msgid "Reveal/hide password"
-msgstr "Revelar/ocultar a palavra-passe"
+msgstr "Revelar/esconder password"
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:4053
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:4012
 msgid "Revert"
 msgstr "Reverter"
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:4138
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:4097
 msgid "Revert changes"
 msgstr "Reverter as mudanças"
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:4320
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:4279
 msgid "Revert request failed with status <code>%h</code>"
 msgstr ""
 "O pedido para reverter as configurações falhou com o estado <code>%h</code>"
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:4300
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:4259
 msgid "Reverting configuration…"
 msgstr "Revertendo configurações…"
 
@@ -5456,9 +5391,9 @@ msgstr "Prepação da raiz (/)"
 
 #: protocols/luci-proto-bonding/htdocs/luci-static/resources/protocol/bonding.js:202
 msgid "Round-Robin policy (balance-rr, 0)"
-msgstr "Política Round-Robin (balanço-rr, 0)"
+msgstr ""
 
-#: protocols/luci-proto-wireguard/htdocs/luci-static/resources/protocol/wireguard.js:159
+#: protocols/luci-proto-wireguard/htdocs/luci-static/resources/protocol/wireguard.js:139
 msgid "Route Allowed IPs"
 msgstr "Roteie Andereços IP Autorizados"
 
@@ -5550,28 +5485,28 @@ msgstr "SSID"
 
 #: protocols/luci-proto-sstp/htdocs/luci-static/resources/protocol/sstp.js:9
 msgid "SSTP"
-msgstr "SSTP"
+msgstr ""
 
 #: protocols/luci-proto-sstp/htdocs/luci-static/resources/protocol/sstp.js:41
 msgid "SSTP Server"
-msgstr "Servidor SSTP"
+msgstr ""
 
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/mounts.js:339
 msgid "SWAP"
 msgstr "SWAP"
 
-#: modules/luci-base/htdocs/luci-static/resources/form.js:2866
+#: modules/luci-base/htdocs/luci-static/resources/form.js:2712
 #: modules/luci-base/htdocs/luci-static/resources/luci.js:2198
 #: modules/luci-compat/luasrc/view/cbi/error.htm:17
 #: modules/luci-compat/luasrc/view/cbi/footer.htm:26
 #: modules/luci-compat/luasrc/view/cbi/header.htm:20
-#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js:435
+#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js:430
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/startup.js:123
 msgid "Save"
 msgstr "Guardar"
 
 #: modules/luci-base/htdocs/luci-static/resources/luci.js:2180
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:4049
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:4008
 #: modules/luci-compat/luasrc/view/cbi/footer.htm:22
 msgid "Save & Apply"
 msgstr "Gravar & Aplicar"
@@ -5580,11 +5515,11 @@ msgstr "Gravar & Aplicar"
 msgid "Save error"
 msgstr "Erro ao gravar"
 
-#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js:406
+#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js:401
 msgid "Save mtdblock"
 msgstr "Gravar o bloco mtd"
 
-#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js:396
+#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js:389
 msgid "Save mtdblock contents"
 msgstr "Gravar o conteúdo do bloco mtd"
 
@@ -5597,11 +5532,11 @@ msgstr "Procurar"
 msgid "Scheduled Tasks"
 msgstr "Tarefas Agendadas"
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:4033
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:3992
 msgid "Section added"
 msgstr "Secção adicionada"
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:4035
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:3994
 msgid "Section removed"
 msgstr "Secção removida"
 
@@ -5619,17 +5554,15 @@ msgstr ""
 "do formato da imagem falhar. Use somente se você estiver confiante que a "
 "firmware está correta e é destinada para seu aparelho!"
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:2622
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:2762
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:2927
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:2581
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:2721
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:2886
 msgid "Select file…"
 msgstr "Selecione o ficheiro.…"
 
 #: protocols/luci-proto-bonding/htdocs/luci-static/resources/protocol/bonding.js:318
 msgid "Selects the transmit hash policy to use for slave selection"
 msgstr ""
-"Seleciona a política de transmissão do hash para utilizar com a seleção dos "
-"escravos"
 
 #: protocols/luci-proto-3g/htdocs/luci-static/resources/protocol/3g.js:144
 #: protocols/luci-proto-ppp/htdocs/luci-static/resources/protocol/ppp.js:128
@@ -5680,7 +5613,7 @@ msgstr ""
 
 #: protocols/luci-proto-bonding/htdocs/luci-static/resources/protocol/bonding.js:300
 msgid "Set same MAC Address to all slaves"
-msgstr "Defina o mesmo endereço MAC para todos os escravos"
+msgstr ""
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:642
 msgid "Set this interface as master for the dhcpv6 relay."
@@ -5688,14 +5621,15 @@ msgstr "Defina esta interface como mestre para o relé dhcpv6."
 
 #: protocols/luci-proto-bonding/htdocs/luci-static/resources/protocol/bonding.js:304
 msgid "Set to currently active slave (active, 1)"
-msgstr "Definido como um escravo atualmente ativo (ativo, 1)"
+msgstr ""
 
 #: protocols/luci-proto-bonding/htdocs/luci-static/resources/protocol/bonding.js:305
 msgid "Set to first slave added to the bond (follow, 2)"
-msgstr "Definido como o primeiro escravo adicionado ao vínculo (seguir, 2)"
+msgstr ""
 
 #: modules/luci-compat/luasrc/model/network/proto_modemmanager.lua:55
 #: modules/luci-compat/luasrc/model/network/proto_qmi.lua:55
+#: protocols/luci-proto-modemmanager/htdocs/luci-static/resources/protocol/modemmanager.js:42
 #: protocols/luci-proto-qmi/htdocs/luci-static/resources/protocol/qmi.js:23
 msgid "Setting PLMN failed"
 msgstr ""
@@ -5727,7 +5661,7 @@ msgstr "Intervalo de guarda curto"
 msgid "Short Preamble"
 msgstr "Preâmbulo curto"
 
-#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js:442
+#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js:437
 #: modules/luci-mod-system/luasrc/model/cbi/admin_system/backupfiles.lua:18
 msgid "Show current backup file list"
 msgstr "Mostrar lista ficheiros para backup"
@@ -5763,7 +5697,7 @@ msgstr "Atenuação do Sinal (<abbr title=\"Signal Attenuation\">SATN</abbr>)"
 msgid "Signal:"
 msgstr "Sinal:"
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:3786
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:3745
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js:217
 msgid "Size"
 msgstr "Tamanho"
@@ -5793,9 +5727,9 @@ msgstr "Ir para a navegação"
 
 #: protocols/luci-proto-bonding/htdocs/luci-static/resources/protocol/bonding.js:178
 msgid "Slave Interfaces"
-msgstr "Interfaces dos Escravos"
+msgstr ""
 
-#: modules/luci-base/htdocs/luci-static/resources/network.js:2883
+#: modules/luci-base/htdocs/luci-static/resources/network.js:2867
 #: modules/luci-compat/luasrc/model/network.lua:1428
 msgid "Software VLAN"
 msgstr "VLAN em Software"
@@ -5812,7 +5746,7 @@ msgstr "Lamento, o objecto que pediu não foi encontrado."
 msgid "Sorry, the server encountered an unexpected error."
 msgstr "Lamento, o servidor encontrou um erro inesperado."
 
-#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js:414
+#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js:409
 msgid ""
 "Sorry, there is no sysupgrade support present; a new firmware image must be "
 "flashed manually. Please refer to the wiki for device specific install "
@@ -5835,34 +5769,29 @@ msgstr "Endereço de Origem"
 #: protocols/luci-proto-gre/htdocs/luci-static/resources/protocol/grev6.js:50
 #: protocols/luci-proto-gre/htdocs/luci-static/resources/protocol/grev6tap.js:50
 msgid "Source interface"
-msgstr "Interface de origem"
+msgstr ""
 
 #: protocols/luci-proto-bonding/htdocs/luci-static/resources/protocol/bonding.js:342
 msgid ""
 "Specifies that duplicate frames (received on inactive ports) should be "
 "dropped or delivered"
 msgstr ""
-"Especifica quais quadros duplicados (recebidos em portas inativas) devem ser "
-"descartados ou entregues"
 
 #: protocols/luci-proto-bonding/htdocs/luci-static/resources/protocol/bonding.js:358
 msgid "Specifies the ARP link monitoring frequency in milliseconds"
 msgstr ""
-"Especifica a frequência de monitoramento do enlace ARP em milissegundos"
 
 #: protocols/luci-proto-bonding/htdocs/luci-static/resources/protocol/bonding.js:366
 msgid "Specifies the IP addresses to use for ARP monitoring"
 msgstr ""
-"Especifica quais os endereços IP que serão utilizados no monitoramento ARP"
 
 #: protocols/luci-proto-bonding/htdocs/luci-static/resources/protocol/bonding.js:395
 msgid "Specifies the MII link monitoring frequency in milliseconds"
 msgstr ""
-"Especifica a frequência de monitoramento do enlace MII em milissegundos"
 
 #: protocols/luci-proto-bonding/htdocs/luci-static/resources/protocol/bonding.js:259
 msgid "Specifies the aggregation selection logic to use"
-msgstr "Especifica a lógica de seleção da agregação que será utilizada"
+msgstr ""
 
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/mounts.js:292
 msgid "Specifies the directory the device is attached to"
@@ -5873,9 +5802,6 @@ msgid ""
 "Specifies the mac-address for the actor in protocol packet exchanges "
 "(LACPDUs). If empty, masters' mac address defaults to system default"
 msgstr ""
-"Especifica o endereço mac para o ator durante as trocas de pacotes do "
-"protocolo (LACPDUs). Caso esteja vazio, o endereço mac dos mestres assume "
-"como predefinido do sistema"
 
 #: protocols/luci-proto-relay/htdocs/luci-static/resources/protocol/relay.js:175
 msgid ""
@@ -5908,133 +5834,100 @@ msgid ""
 "Specifies the minimum number of links that must be active before asserting "
 "carrier"
 msgstr ""
-"Determina a quantidade mínima de enlaces que devem estar ativos antes de "
-"declarar a operadora"
 
 #: protocols/luci-proto-bonding/htdocs/luci-static/resources/protocol/bonding.js:200
 msgid "Specifies the mode to be used for this bonding interface"
-msgstr "Especifica o modo de ligação que será utilizado por esta interface"
+msgstr ""
 
 #: protocols/luci-proto-bonding/htdocs/luci-static/resources/protocol/bonding.js:333
 msgid ""
 "Specifies the number of IGMP membership reports to be issued after a "
 "failover event in 200ms intervals"
 msgstr ""
-"Determina a quantidade de relatórios associados ao IGMP que serão emitidos "
-"após um evento failover em intervalos de 200 ms"
 
 #: protocols/luci-proto-bonding/htdocs/luci-static/resources/protocol/bonding.js:276
 msgid ""
 "Specifies the number of packets to transmit through a slave before moving to "
 "the next one"
 msgstr ""
-"Determina a quantidade de pacotes que serão transmitidos por um escravo "
-"antes de passar para o próximo"
 
 #: protocols/luci-proto-bonding/htdocs/luci-static/resources/protocol/bonding.js:310
 msgid ""
 "Specifies the number of peer notifications (gratuitous ARPs and unsolicited "
 "IPv6 Neighbor Advertisements) to be issued after a failover event"
 msgstr ""
-"Determina a quantidade de notificações dos pares (ARPs gratuitos e anúncios "
-"dos vizinhos IPv6 não forem solicitados) que serão emitidos após um evento "
-"failover"
 
 #: protocols/luci-proto-bonding/htdocs/luci-static/resources/protocol/bonding.js:284
 msgid ""
 "Specifies the number of seconds between instances where the bonding driver "
 "sends learning packets to each slaves peer switch"
 msgstr ""
-"Determina a quantidade de segundos entre as instâncias em que o driver de "
-"ligação envia os pacotes de aprendizado para cada comutador dos pares "
-"escravos"
 
 #: protocols/luci-proto-bonding/htdocs/luci-static/resources/protocol/bonding.js:374
 msgid "Specifies the quantity of ARP IP targets that must be reachable"
 msgstr ""
-"Determina a quantidade dos destinos IP do ARP que devem ser alcançáveis"
 
 #: protocols/luci-proto-bonding/htdocs/luci-static/resources/protocol/bonding.js:268
 msgid ""
 "Specifies the rate in which the link partner will be asked to transmit "
 "LACPDU packets"
 msgstr ""
-"Determina a taxa na qual o parceiro do enlace será solicitado para "
-"transmitir os pacotes LACPDU"
 
 #: protocols/luci-proto-bonding/htdocs/luci-static/resources/protocol/bonding.js:225
 msgid ""
 "Specifies the reselection policy for the primary slave when failure of the "
 "active slave or recovery of the primary slave occurs"
 msgstr ""
-"Determina a política da nova seleção para o escravo primário quando ocorre "
-"uma falha do escravo ativo ou durante a recuperação do escravo primário"
 
 #: protocols/luci-proto-bonding/htdocs/luci-static/resources/protocol/bonding.js:244
 msgid "Specifies the system priority"
-msgstr "Determina a prioridade do sistema"
+msgstr ""
 
 #: protocols/luci-proto-bonding/htdocs/luci-static/resources/protocol/bonding.js:403
 msgid ""
 "Specifies the time in milliseconds to wait before disabling a slave after a "
 "link failure detection"
 msgstr ""
-"Determina o tempo em milissegundos da espera antes que um escravo seja "
-"desativado após uma detecção de falha do enlace"
 
 #: protocols/luci-proto-bonding/htdocs/luci-static/resources/protocol/bonding.js:411
 msgid ""
 "Specifies the time in milliseconds to wait before enabling a slave after a "
 "link recovery detection"
 msgstr ""
-"Determina o tempo em milissegundos da espera antes que um escravo seja "
-"ativado após a detecção de recuperação do enlace"
 
 #: protocols/luci-proto-bonding/htdocs/luci-static/resources/protocol/bonding.js:382
 msgid ""
 "Specifies whether ARP probes and replies should be validated or non-ARP "
 "traffic should be filtered for link monitoring"
 msgstr ""
-"Determina se as análises e respostas do ARP devem ser validadas ou o tráfego "
-"não-ARP deve ser filtrado para o monitoramento do enlace"
 
 #: protocols/luci-proto-bonding/htdocs/luci-static/resources/protocol/bonding.js:301
 msgid ""
 "Specifies whether active-backup mode should set all slaves to the same MAC "
 "address at enslavement"
 msgstr ""
-"Determina se o modo do backup ativo deve definir que todos os escravos "
-"tenham o mesmo endereço MAC durante a escravidão"
 
 #: protocols/luci-proto-bonding/htdocs/luci-static/resources/protocol/bonding.js:419
 msgid ""
 "Specifies whether or not miimon should use MII or ETHTOOL ioctls vs. "
 "netif_carrier_ok()"
 msgstr ""
-"Determina se o miimon deve ou não usar o MII ou ETHTOOL ioctls vs. "
-"netif_carrier_ok()"
 
 #: protocols/luci-proto-bonding/htdocs/luci-static/resources/protocol/bonding.js:293
 msgid ""
 "Specifies whether to shuffle active flows across slaves based on the load"
 msgstr ""
-"Determina se é necessário embaralhar os fluxos ativos entre os escravos com "
-"base na carga"
 
 #: protocols/luci-proto-bonding/htdocs/luci-static/resources/protocol/bonding.js:179
 msgid ""
 "Specifies which slave interfaces should be attached to this bonding interface"
 msgstr ""
-"Determina quais as interfaces escravas devem ser conectadas a esta interface "
-"de ligação"
 
 #: protocols/luci-proto-bonding/htdocs/luci-static/resources/protocol/bonding.js:212
 msgid ""
 "Specifies which slave is the primary device. It will always be the active "
 "slave while it is available"
 msgstr ""
-"Determina qual escravo é o aparelho principal. Sempre será o escravo ativo "
-"enquanto estiver disponível"
 
 #: protocols/luci-proto-ipip/htdocs/luci-static/resources/protocol/ipip.js:63
 #: protocols/luci-proto-vxlan/htdocs/luci-static/resources/protocol/vxlan.js:72
@@ -6049,9 +5942,6 @@ msgid ""
 "outer header inherits the value of the inner header) or an hexadecimal value "
 "starting with <code>0x</code> (optional)."
 msgstr ""
-"Especifique um TOS (Tipo de Serviço). Pode ser <code>inherit</code> (o "
-"cabeçalho externo herda o valor do cabeçalho interno) ou um valor "
-"hexadecimal começando com <code>0x</code> (opcional)."
 
 #: protocols/luci-proto-gre/htdocs/luci-static/resources/protocol/gre.js:62
 #: protocols/luci-proto-gre/htdocs/luci-static/resources/protocol/gretap.js:67
@@ -6061,8 +5951,6 @@ msgid ""
 "Specify a TTL (Time to Live) for the encapsulating packet other than the "
 "default (64) (optional)."
 msgstr ""
-"Defina um TTL (Time to Live) para o pacote de encapsulamento diferente do "
-"predefinido (64) (opcional)."
 
 #: protocols/luci-proto-ipip/htdocs/luci-static/resources/protocol/ipip.js:58
 #: protocols/luci-proto-vxlan/htdocs/luci-static/resources/protocol/vxlan.js:67
@@ -6072,7 +5960,7 @@ msgid ""
 "default (64)."
 msgstr ""
 "Especifica o tempo de vida (<abbr title=\"Time to Live\">TTL</abbr>) para os "
-"pacotes encapsulados ao invés da predefinição (64)."
+"pacotes encapsulados ao invés do padrão (64)."
 
 #: protocols/luci-proto-gre/htdocs/luci-static/resources/protocol/grev6.js:72
 #: protocols/luci-proto-gre/htdocs/luci-static/resources/protocol/grev6tap.js:77
@@ -6081,9 +5969,6 @@ msgid ""
 "header inherits the value of the inner header) or an hexadecimal value "
 "starting with <code>0x</code> (optional)."
 msgstr ""
-"Defina uma Classe de Trânsito. Pode ser <code>inherit</code> (o cabeçalho "
-"externo herda o valor do cabeçalho interno) ou um valor hexadecimal "
-"começando com <code>0x</code> (opcional)."
 
 #: protocols/luci-proto-gre/htdocs/luci-static/resources/protocol/gre.js:57
 #: protocols/luci-proto-gre/htdocs/luci-static/resources/protocol/gretap.js:62
@@ -6093,8 +5978,6 @@ msgid ""
 "Specify an MTU (Maximum Transmission Unit) other than the default (1280 "
 "bytes) (optional)."
 msgstr ""
-"Defina um MTU (Maximum Transmission Unit) diferente da predefinida (1280 "
-"bytes) (opcional)."
 
 #: protocols/luci-proto-ipip/htdocs/luci-static/resources/protocol/ipip.js:53
 #: protocols/luci-proto-vxlan/htdocs/luci-static/resources/protocol/vxlan.js:62
@@ -6104,7 +5987,7 @@ msgid ""
 "bytes)."
 msgstr ""
 "Especifica a unidade máxima de transmissão (<abbr title=\"Maximum "
-"Transmission Unit\">MTU</abbr>) ao invés do valor predefinido (1280 bytes)."
+"Transmission Unit\">MTU</abbr>) ao invés do valor padrão (1280 bytes)."
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:1931
 msgid "Specify the secret encryption key here."
@@ -6123,7 +6006,7 @@ msgstr "Prioridade de inicialização"
 msgid "Start refresh"
 msgstr "Iniciar atualização"
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:4253
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:4212
 msgid "Starting configuration apply…"
 msgstr "Iniciando a aplicação da configuração…"
 
@@ -6152,7 +6035,7 @@ msgstr "Atribuições Estáticas"
 msgid "Static Routes"
 msgstr "Rotas Estáticas"
 
-#: modules/luci-base/htdocs/luci-static/resources/network.js:1981
+#: modules/luci-base/htdocs/luci-static/resources/network.js:1965
 #: modules/luci-base/htdocs/luci-static/resources/protocol/static.js:172
 #: modules/luci-compat/luasrc/model/network.lua:967
 msgid "Static address"
@@ -6201,7 +6084,7 @@ msgstr "Forte"
 #: modules/luci-compat/luasrc/view/cbi/simpleform.htm:61
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:1956
 msgid "Submit"
-msgstr "Submeter"
+msgstr "Enviar"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/dhcp.js:203
 msgid "Suppress logging"
@@ -6231,7 +6114,7 @@ msgstr ""
 "O Switch %q tem uma topologia desconhecida - as configurações de VLAN podem "
 "não ser precisas."
 
-#: modules/luci-base/htdocs/luci-static/resources/network.js:2883
+#: modules/luci-base/htdocs/luci-static/resources/network.js:2867
 #: modules/luci-compat/luasrc/model/network.lua:1426
 msgid "Switch VLAN"
 msgstr "Mudar VLAN"
@@ -6246,7 +6129,7 @@ msgstr "Trocar o protocolo"
 msgid "Switch to CIDR list notation"
 msgstr "Mudar para a notação CIDR de listas"
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:2657
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:2616
 msgid "Symbolic link"
 msgstr "Ligação simbólica"
 
@@ -6272,7 +6155,7 @@ msgstr "Registo do Sistema"
 
 #: protocols/luci-proto-bonding/htdocs/luci-static/resources/protocol/bonding.js:243
 msgid "System Priority"
-msgstr "Prioridade do Sistema"
+msgstr ""
 
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/system.js:104
 msgid "System Properties"
@@ -6338,7 +6221,7 @@ msgstr ""
 
 #: protocols/luci-proto-vxlan/htdocs/luci-static/resources/protocol/vxlan.js:40
 msgid "The IPv4 address or the fully-qualified domain name of the remote end."
-msgstr "O endereço IPV4 remoto ou o seu FQDN."
+msgstr ""
 
 #: protocols/luci-proto-gre/htdocs/luci-static/resources/protocol/gre.js:42
 #: protocols/luci-proto-gre/htdocs/luci-static/resources/protocol/gretap.js:42
@@ -6349,15 +6232,13 @@ msgstr "O endereço IPv4 ou o nome completo (FQDN) da ponta remota do túnel."
 
 #: protocols/luci-proto-vxlan/htdocs/luci-static/resources/protocol/vxlan6.js:40
 msgid "The IPv6 address or the fully-qualified domain name of the remote end."
-msgstr "O endereço IPV6 remoto ou o seu FQDN."
+msgstr ""
 
 #: protocols/luci-proto-gre/htdocs/luci-static/resources/protocol/grev6.js:42
 #: protocols/luci-proto-gre/htdocs/luci-static/resources/protocol/grev6tap.js:42
 msgid ""
 "The IPv6 address or the fully-qualified domain name of the remote tunnel end."
 msgstr ""
-"O endereço IPv6 ou o FQDN (nome de domínio totalmente qualificado) da "
-"extremidade do túnel remoto."
 
 #: protocols/luci-proto-ipv6/htdocs/luci-static/resources/protocol/6rd.js:53
 #: protocols/luci-proto-ipv6/htdocs/luci-static/resources/protocol/map.js:59
@@ -6380,7 +6261,7 @@ msgid "The configuration file could not be loaded due to the following error:"
 msgstr ""
 "O ficheiros de configuração não pode ser carregado devido ao seguinte erro:"
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:4129
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:4088
 msgid ""
 "The device could not be reached within %d seconds after applying the pending "
 "changes, which caused the configuration to be rolled back for safety "
@@ -6469,7 +6350,7 @@ msgstr "O comprimento do prefixo IPv6 em bits"
 
 #: protocols/luci-proto-bonding/htdocs/luci-static/resources/protocol/bonding.js:163
 msgid "The local IPv4 address"
-msgstr "O endereço IPv4 local"
+msgstr ""
 
 #: protocols/luci-proto-gre/htdocs/luci-static/resources/protocol/gre.js:46
 #: protocols/luci-proto-gre/htdocs/luci-static/resources/protocol/gretap.js:46
@@ -6480,13 +6361,13 @@ msgstr "O endereço IPv4 local sobre o qual o túnel será criado (opcional)."
 
 #: protocols/luci-proto-bonding/htdocs/luci-static/resources/protocol/bonding.js:169
 msgid "The local IPv4 netmask"
-msgstr "A máscara de rede do IPv4 local"
+msgstr ""
 
 #: protocols/luci-proto-gre/htdocs/luci-static/resources/protocol/grev6.js:46
 #: protocols/luci-proto-gre/htdocs/luci-static/resources/protocol/grev6tap.js:46
 #: protocols/luci-proto-vxlan/htdocs/luci-static/resources/protocol/vxlan6.js:44
 msgid "The local IPv6 address over which the tunnel is created (optional)."
-msgstr "O endereço IPv6 local sobre o qual o túnel será criado (opcional)."
+msgstr ""
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:1922
 msgid "The network name is already used"
@@ -6503,9 +6384,9 @@ msgid ""
 msgstr ""
 "As portas de rede neste aparelho podem ser combinadas com várias <abbr title="
 "\"Rede de Área Local Virtual\">VLAN</abbr>s onde os computadores podem "
-"comunicar diretamente entre eles. <abbr title=\"Rede de Área Local Virtual"
+"comunicar directamente entre eles. <abbr title=\"Rede de Área Local Virtual"
 "\">VLAN</abbr>s são muito utilizadas para separar dois segmentos de rede "
-"diferentes. Muitas vezes existe por defeito uma porta de Uplink para uma "
+"diferentes. Muitas vezes existe por defeito uma porta de Uplink  para uma "
 "ligação para a rede acima como a internet ou outras portas de uma rede local."
 
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js:158
@@ -6594,7 +6475,7 @@ msgstr ""
 msgid "There are no active leases"
 msgstr "Não há arrendamentos ativos"
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:4268
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:4227
 msgid "There are no changes to apply"
 msgstr "Não há alterações a serem aplicadas"
 
@@ -6605,10 +6486,10 @@ msgstr "Não há alterações a serem aplicadas"
 #: themes/luci-theme-rosy/luasrc/view/themes/rosy/header.htm:282
 msgid ""
 "There is no password set on this router. Please configure a root password to "
-"protect the web interface."
+"protect the web interface and enable SSH."
 msgstr ""
 "Não há uma password definida neste router. Por favor defina uma palavra-"
-"passe de root para proteger a interface web."
+"passe de root para proteger a interface web e ativar o SSH."
 
 #: protocols/luci-proto-ipv6/htdocs/luci-static/resources/protocol/6rd.js:49
 msgid "This IPv4 address of the relay"
@@ -6632,7 +6513,7 @@ msgstr ""
 "'server=1.2.3.4' para domínios específicos ou servidores <abbr title="
 "\"Domain Name System\">DNS</abbr> completamente upstream."
 
-#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js:426
+#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js:421
 #: modules/luci-mod-system/luasrc/model/cbi/admin_system/backupfiles.lua:16
 msgid ""
 "This is a list of shell glob patterns for matching files and directories to "
@@ -6712,8 +6593,8 @@ msgid ""
 msgstr ""
 "Esta opção não pode ser usada porque o pacote ca-bundle não está instalado."
 
-#: modules/luci-base/htdocs/luci-static/resources/form.js:2205
-#: modules/luci-base/htdocs/luci-static/resources/form.js:2511
+#: modules/luci-base/htdocs/luci-static/resources/form.js:2051
+#: modules/luci-base/htdocs/luci-static/resources/form.js:2357
 #: modules/luci-compat/luasrc/view/cbi/tblsection.htm:172
 #: modules/luci-compat/luasrc/view/cbi/tsection.htm:32
 msgid "This section contains no values yet"
@@ -6768,7 +6649,7 @@ msgstr "Tráfego"
 #: protocols/luci-proto-gre/htdocs/luci-static/resources/protocol/grev6.js:72
 #: protocols/luci-proto-gre/htdocs/luci-static/resources/protocol/grev6tap.js:77
 msgid "Traffic Class"
-msgstr "Classe de tráfego"
+msgstr ""
 
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/connections.js:385
 msgid "Transfer"
@@ -6780,7 +6661,7 @@ msgstr "Transmitir"
 
 #: protocols/luci-proto-bonding/htdocs/luci-static/resources/protocol/bonding.js:317
 msgid "Transmit Hash Policy"
-msgstr "Política de Transmissão do Hash"
+msgstr ""
 
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/leds.js:74
 msgid "Trigger"
@@ -6794,7 +6675,7 @@ msgstr "Modo de Trigger"
 msgid "Tunnel ID"
 msgstr "ID do Túnel"
 
-#: modules/luci-base/htdocs/luci-static/resources/network.js:2886
+#: modules/luci-base/htdocs/luci-static/resources/network.js:2870
 #: modules/luci-compat/luasrc/model/network.lua:1431
 msgid "Tunnel Interface"
 msgstr "Interface de Túnel"
@@ -6861,6 +6742,7 @@ msgstr "Não foi possível carregar os dados do log:"
 
 #: modules/luci-compat/luasrc/model/network/proto_modemmanager.lua:54
 #: modules/luci-compat/luasrc/model/network/proto_qmi.lua:54
+#: protocols/luci-proto-modemmanager/htdocs/luci-static/resources/protocol/modemmanager.js:41
 #: protocols/luci-proto-qmi/htdocs/luci-static/resources/protocol/qmi.js:22
 msgid "Unable to obtain client ID"
 msgstr "Não foi possível obter o identificador do cliente"
@@ -6907,16 +6789,12 @@ msgstr ""
 msgid "Unexpected reply data format"
 msgstr "Formato de dados de resposta inesperado"
 
-#: modules/luci-base/htdocs/luci-static/resources/network.js:1983
+#: modules/luci-base/htdocs/luci-static/resources/network.js:1967
 #: modules/luci-compat/luasrc/model/network.lua:971
 msgid "Unknown"
 msgstr "Desconhecido"
 
-#: protocols/luci-proto-modemmanager/htdocs/luci-static/resources/protocol/modemmanager.js:47
-msgid "Unknown and unsupported connection method."
-msgstr "Método de ligação desconhecido e sem suporte."
-
-#: modules/luci-base/htdocs/luci-static/resources/network.js:2292
+#: modules/luci-base/htdocs/luci-static/resources/network.js:2276
 #: modules/luci-compat/luasrc/model/network.lua:1138
 msgid "Unknown error (%s)"
 msgstr "Erro desconhecido (%s)"
@@ -6925,7 +6803,7 @@ msgstr "Erro desconhecido (%s)"
 msgid "Unknown error code"
 msgstr "Código de erro desconhecido"
 
-#: modules/luci-base/htdocs/luci-static/resources/network.js:1980
+#: modules/luci-base/htdocs/luci-static/resources/network.js:1964
 #: modules/luci-base/htdocs/luci-static/resources/protocol/none.js:6
 #: modules/luci-compat/luasrc/model/network.lua:965
 msgid "Unmanaged"
@@ -6941,7 +6819,7 @@ msgstr "Desmontar"
 msgid "Unnamed key"
 msgstr "Chave sem nome"
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:3973
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:3932
 msgid "Unsaved Changes"
 msgstr "Alterações não Guardadas"
 
@@ -6971,13 +6849,13 @@ msgstr "Acima"
 
 #: protocols/luci-proto-bonding/htdocs/luci-static/resources/protocol/bonding.js:410
 msgid "Up Delay"
-msgstr "Atraso de Envio"
+msgstr ""
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:3860
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:3819
 msgid "Upload"
 msgstr "Enviar"
 
-#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js:413
+#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js:408
 msgid ""
 "Upload a sysupgrade-compatible image here to replace the running firmware."
 msgstr ""
@@ -6990,21 +6868,21 @@ msgstr ""
 msgid "Upload archive..."
 msgstr "Enviar arquivo..."
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:2816
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:2775
 msgid "Upload file"
 msgstr "Enviar ficheiro"
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:2791
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:2750
 msgid "Upload file…"
 msgstr "Enviar ficheiro…"
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:2738
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:3848
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:2697
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:3807
 msgid "Upload request failed: %s"
 msgstr "Pedido de envio falhou: %s"
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:3767
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:3821
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:3726
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:3780
 msgid "Uploading file…"
 msgstr "Enviando o ficheiro…"
 
@@ -7073,19 +6951,17 @@ msgstr "Use TTL na interface do túnel"
 
 #: protocols/luci-proto-bonding/htdocs/luci-static/resources/protocol/bonding.js:320
 msgid "Use XOR of hardware MAC addresses (layer2)"
-msgstr "Use o XOR do hardware nos endereços MAC (camada2)"
+msgstr ""
 
 #: protocols/luci-proto-bonding/htdocs/luci-static/resources/protocol/bonding.js:321
 msgid "Use XOR of hardware MAC addresses and IP addresses (layer2+3)"
-msgstr "Use o XOR do hardware nos endereços MAC e endereços IP (camada2+3)"
+msgstr ""
 
 #: protocols/luci-proto-bonding/htdocs/luci-static/resources/protocol/bonding.js:323
 msgid ""
 "Use XOR of hardware MAC addresses and IP addresses, rely on skb_flow_dissect "
 "(encap2+3)"
 msgstr ""
-"Use o XOR do hardware nos endereços MAC e endereços IP, dependente do "
-"skb_flow_dissect (encapsulamento2+3)"
 
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/mounts.js:294
 msgid "Use as external overlay (/overlay)"
@@ -7176,19 +7052,17 @@ msgstr ""
 "<em>Endereço MAC</em> identifica o host, o <em>Endereço IPv4</em> especifica "
 "o endereço fixo a ser usado, e o <em>Hostname</em> é atribuído como um nome "
 "simbólico ao host solicitante. O <em>Tempo de concessão</em> opcional pode "
-"ser usado para definir o tempo de concessão não predefinido específico do "
-"host, por exemplo, 12h, 3d ou infinito."
+"ser usado para definir o tempo de concessão não padrão específico do host, "
+"por exemplo, 12h, 3d ou infinito."
 
 #: protocols/luci-proto-bonding/htdocs/luci-static/resources/protocol/bonding.js:322
 msgid "Use upper layer protocol information (layer3+4)"
-msgstr "Utilize as informações do protocolo da camada superior (camada3+4)"
+msgstr ""
 
 #: protocols/luci-proto-bonding/htdocs/luci-static/resources/protocol/bonding.js:324
 msgid ""
 "Use upper layer protocol information, rely on skb_flow_dissect (encap3+4)"
 msgstr ""
-"Utilize as informações do protocolo da camada superior, dependente do "
-"skb_flow_dissect (encapsulamento3+4)"
 
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/include/20_memory.js:36
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/mounts.js:194
@@ -7209,7 +7083,7 @@ msgstr ""
 
 #: protocols/luci-proto-openconnect/htdocs/luci-static/resources/protocol/openconnect.js:105
 msgid "User Group"
-msgstr "Grupo do Utilizador"
+msgstr ""
 
 #: protocols/luci-proto-openconnect/htdocs/luci-static/resources/protocol/openconnect.js:114
 msgid "User certificate (PEM encoded)"
@@ -7270,16 +7144,16 @@ msgstr "VPNC (VPN do CISCO 3000 (e outros))"
 
 #: protocols/luci-proto-vxlan/htdocs/luci-static/resources/protocol/vxlan.js:10
 msgid "VXLAN (RFC7348)"
-msgstr "VXLAN (RFC7348)"
+msgstr ""
 
 #: protocols/luci-proto-vxlan/htdocs/luci-static/resources/protocol/vxlan.js:53
 #: protocols/luci-proto-vxlan/htdocs/luci-static/resources/protocol/vxlan6.js:48
 msgid "VXLAN network identifier"
-msgstr "Identificador de rede VXLAN"
+msgstr ""
 
 #: protocols/luci-proto-vxlan/htdocs/luci-static/resources/protocol/vxlan6.js:10
 msgid "VXLANv6 (RFC7348)"
-msgstr "VXLANv6 (RFC7348)"
+msgstr ""
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:1498
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:1556
@@ -7292,19 +7166,19 @@ msgstr ""
 
 #: protocols/luci-proto-bonding/htdocs/luci-static/resources/protocol/bonding.js:387
 msgid "Validation for all slaves"
-msgstr "Validação para todos os escravos"
+msgstr ""
 
 #: protocols/luci-proto-bonding/htdocs/luci-static/resources/protocol/bonding.js:385
 msgid "Validation only for active slave"
-msgstr "Validação somente para o escravo ativo"
+msgstr ""
 
 #: protocols/luci-proto-bonding/htdocs/luci-static/resources/protocol/bonding.js:386
 msgid "Validation only for backup slaves"
-msgstr "Validação apenas para os escravos backup"
+msgstr ""
 
-#: protocols/luci-proto-wireguard/htdocs/luci-static/resources/protocol/wireguard.js:154
+#: protocols/luci-proto-wireguard/htdocs/luci-static/resources/protocol/wireguard.js:134
 msgid "Value must not be empty"
-msgstr "O valor não pode ser vazio"
+msgstr ""
 
 #: protocols/luci-proto-vpnc/htdocs/luci-static/resources/protocol/vpnc.js:73
 msgid "Vendor"
@@ -7391,7 +7265,7 @@ msgid "Width"
 msgstr "Largura"
 
 #: modules/luci-compat/luasrc/model/network/proto_wireguard.lua:9
-#: protocols/luci-proto-wireguard/htdocs/luci-static/resources/protocol/wireguard.js:29
+#: protocols/luci-proto-wireguard/htdocs/luci-static/resources/protocol/wireguard.js:21
 msgid "WireGuard VPN"
 msgstr "VPN WireGuard"
 
@@ -7401,13 +7275,13 @@ msgstr "VPN WireGuard"
 msgid "Wireless"
 msgstr "Wireless"
 
-#: modules/luci-base/htdocs/luci-static/resources/network.js:2874
+#: modules/luci-base/htdocs/luci-static/resources/network.js:2858
 #: modules/luci-compat/luasrc/model/network.lua:1419
 msgid "Wireless Adapter"
 msgstr "Adaptador Wireless"
 
-#: modules/luci-base/htdocs/luci-static/resources/network.js:2853
-#: modules/luci-base/htdocs/luci-static/resources/network.js:4057
+#: modules/luci-base/htdocs/luci-static/resources/network.js:2837
+#: modules/luci-base/htdocs/luci-static/resources/network.js:4041
 #: modules/luci-compat/luasrc/model/network.lua:1405
 #: modules/luci-compat/luasrc/model/network.lua:1868
 msgid "Wireless Network"
@@ -7455,9 +7329,9 @@ msgstr "Escrever registro do sistema (log) no ficheiro"
 
 #: protocols/luci-proto-bonding/htdocs/luci-static/resources/protocol/bonding.js:204
 msgid "XOR policy (balance-xor, 2)"
-msgstr "Política XOR (balanço-xor, 2)"
+msgstr ""
 
-#: modules/luci-base/htdocs/luci-static/resources/form.js:3643
+#: modules/luci-base/htdocs/luci-static/resources/form.js:3472
 #: protocols/luci-proto-bonding/htdocs/luci-static/resources/protocol/bonding.js:295
 #: protocols/luci-proto-bonding/htdocs/luci-static/resources/protocol/bonding.js:344
 #: protocols/luci-proto-vpnc/htdocs/luci-static/resources/protocol/vpnc.js:109
@@ -7466,7 +7340,7 @@ msgstr "Sim"
 
 #: protocols/luci-proto-bonding/htdocs/luci-static/resources/protocol/bonding.js:303
 msgid "Yes (none, 0)"
-msgstr "Sim (nenhum, 0)"
+msgstr ""
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:176
 msgid ""
@@ -7503,15 +7377,11 @@ msgid ""
 "You must select a primary interface which is included in selected slave "
 "interfaces!"
 msgstr ""
-"Deve selecionar uma interface primária que esteja incluída nas interfaces "
-"escravas selecionadas!"
 
 #: protocols/luci-proto-bonding/htdocs/luci-static/resources/protocol/bonding.js:96
 msgid ""
 "You must select at least one ARP IP target if ARP monitoring is selected!"
 msgstr ""
-"Deve selecionar pelo menos um destino IP ARP caso o monitoramento ARP esteja "
-"selecionado!"
 
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/system.js:192
 msgid "ZRam Compression Algorithm"
@@ -7618,15 +7488,15 @@ msgstr "desativado"
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:519
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:553
 msgid "driver default"
-msgstr "predefinição do driver"
+msgstr "padrão do driver"
 
 #: protocols/luci-proto-sstp/htdocs/luci-static/resources/protocol/sstp.js:81
 msgid "e.g: --proxy 10.10.10.10"
-msgstr "p. ex.: --proxy 10.10.10.10.10"
+msgstr ""
 
 #: protocols/luci-proto-sstp/htdocs/luci-static/resources/protocol/sstp.js:83
 msgid "e.g: dump"
-msgstr "p.ex.: despejo"
+msgstr ""
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/dhcp.js:517
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/dhcp.js:538
@@ -7708,7 +7578,7 @@ msgstr "minutos"
 
 #: protocols/luci-proto-bonding/htdocs/luci-static/resources/protocol/bonding.js:422
 msgid "netif_carrier_ok()"
-msgstr "netif_carrier_ok()"
+msgstr ""
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:46
 msgid "no"
@@ -7722,7 +7592,7 @@ msgstr "sem link"
 msgid "non-empty value"
 msgstr "valor não vazio"
 
-#: modules/luci-base/htdocs/luci-static/resources/form.js:3007
+#: modules/luci-base/htdocs/luci-static/resources/form.js:2853
 msgid "none"
 msgstr "nenhum"
 
@@ -7762,7 +7632,7 @@ msgstr "valor decimal positivo"
 msgid "positive integer value"
 msgstr "valor inteiro positivo"
 
-#: protocols/luci-proto-wireguard/htdocs/luci-static/resources/protocol/wireguard.js:80
+#: protocols/luci-proto-wireguard/htdocs/luci-static/resources/protocol/wireguard.js:60
 msgid "random"
 msgstr "aleatório"
 
@@ -7788,7 +7658,7 @@ msgstr "modo servidor"
 
 #: protocols/luci-proto-sstp/htdocs/luci-static/resources/protocol/sstp.js:53
 msgid "sstpc Log-level"
-msgstr "Nível do registro log sstpc"
+msgstr ""
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:649
 msgid "stateful-only"
@@ -7830,7 +7700,7 @@ msgstr "desconhecido"
 msgid "unlimited"
 msgstr "ilimitado"
 
-#: modules/luci-base/htdocs/luci-static/resources/form.js:3372
+#: modules/luci-base/htdocs/luci-static/resources/form.js:3201
 #: modules/luci-base/htdocs/luci-static/resources/tools/widgets.js:76
 #: modules/luci-base/htdocs/luci-static/resources/tools/widgets.js:138
 #: modules/luci-base/htdocs/luci-static/resources/tools/widgets.js:369

@@ -1,14 +1,14 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2020-08-20 15:36+0000\n"
-"Last-Translator: Ataberk Özen <ataberkozen123@gmail.com>\n"
+"PO-Revision-Date: 2020-01-14 15:23+0000\n"
+"Last-Translator: Franco Castillo <castillofrancodamian@gmail.com>\n"
 "Language-Team: Turkish <https://hosted.weblate.org/projects/openwrt/"
 "luciapplicationsmwan3/tr/>\n"
 "Language: tr\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.2.1-dev\n"
+"X-Generator: Weblate 3.11-dev\n"
 
 #: applications/luci-app-mwan3/luasrc/model/cbi/mwan/interfaceconfig.lua:176
 #: applications/luci-app-mwan3/luasrc/model/cbi/mwan/interfaceconfig.lua:192
@@ -118,7 +118,7 @@ msgstr ""
 msgid "Check routing table"
 msgstr ""
 
-#: applications/luci-app-mwan3/luasrc/view/mwan/overview_status_interface.htm:98
+#: applications/luci-app-mwan3/luasrc/view/mwan/overview_status_interface.htm:97
 #: applications/luci-app-mwan3/luasrc/view/mwan/status_detail.htm:34
 #: applications/luci-app-mwan3/luasrc/view/mwan/status_troubleshooting.htm:34
 msgid "Collecting data..."
@@ -176,7 +176,7 @@ msgstr ""
 #: applications/luci-app-mwan3/luasrc/model/cbi/mwan/interface.lua:160
 #: applications/luci-app-mwan3/luasrc/model/cbi/mwan/interfaceconfig.lua:23
 msgid "Enabled"
-msgstr "Etkin"
+msgstr ""
 
 #: applications/luci-app-mwan3/luasrc/model/cbi/mwan/ruleconfig.lua:64
 msgid ""
@@ -324,7 +324,7 @@ msgstr ""
 msgid "Load Balancing"
 msgstr ""
 
-#: applications/luci-app-mwan3/luasrc/view/mwan/overview_status_interface.htm:97
+#: applications/luci-app-mwan3/luasrc/view/mwan/overview_status_interface.htm:96
 #: applications/luci-app-mwan3/luasrc/view/mwan/status_detail.htm:33
 #: applications/luci-app-mwan3/luasrc/view/mwan/status_diagnostics.htm:36
 #: applications/luci-app-mwan3/luasrc/view/mwan/status_troubleshooting.htm:33
@@ -368,7 +368,7 @@ msgstr ""
 msgid "MWAN Interface Configuration - %s"
 msgstr ""
 
-#: applications/luci-app-mwan3/luasrc/view/mwan/overview_status_interface.htm:95
+#: applications/luci-app-mwan3/luasrc/view/mwan/overview_status_interface.htm:94
 msgid "MWAN Interfaces"
 msgstr ""
 
@@ -478,7 +478,7 @@ msgstr ""
 msgid "No"
 msgstr ""
 
-#: applications/luci-app-mwan3/luasrc/view/mwan/overview_status_interface.htm:77
+#: applications/luci-app-mwan3/luasrc/view/mwan/overview_status_interface.htm:76
 msgid "No MWAN interfaces found"
 msgstr ""
 

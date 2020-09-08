@@ -1,6 +1,6 @@
 {
 	"admin/services/ttyd": {
-		"title": "Terminal",
+		"title": "ttyd",
 		"action": {
 			"type": "firstchild"
 		},

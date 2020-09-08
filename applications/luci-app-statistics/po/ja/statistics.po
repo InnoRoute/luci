@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2009-05-19 19:36+0200\n"
-"PO-Revision-Date: 2020-07-22 02:41+0000\n"
+"PO-Revision-Date: 2020-06-28 19:19+0000\n"
 "Last-Translator: Satoru Yoshida <ramat@ram.ne.jp>\n"
 "Language-Team: Japanese <https://hosted.weblate.org/projects/openwrt/"
 "luciapplicationsstatistics/ja/>\n"
@@ -369,11 +369,6 @@ msgstr "指定時間後のキャッシュ クリア"
 msgid "Forwarding between listen and server addresses"
 msgstr "待ち受けアドレスとサーバー アドレス間の転送"
 
-#: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/plugins/df.js:92
-msgid ""
-"Free space, reserved space and used space is reported as relative values"
-msgstr ""
-
 #: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/plugins/openvpn.js:21
 msgid "Gather compression statistics"
 msgstr "圧縮の統計を収集"
@@ -609,7 +604,7 @@ msgstr "リモートのポートを監視する"
 msgid "Monitoring %s and %s"
 msgstr "%s および %s を監視"
 
-#: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/plugins/df.js:106
+#: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/plugins/df.js:103
 msgid "Monitoring %s, %s, %s"
 msgstr "%s、%s および %s を監視"
 
@@ -657,7 +652,7 @@ msgstr[0] "%d 個を除いた全センサーを監視中"
 msgid "Monitoring all disks"
 msgstr "全ディスクを監視中"
 
-#: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/plugins/df.js:106
+#: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/plugins/df.js:103
 msgid "Monitoring all except %s, %s, %s"
 msgstr "%s、%s および %s 以外のすべてを監視"
 
@@ -671,7 +666,7 @@ msgstr "全インターフェースを監視中"
 msgid "Monitoring all interrupts"
 msgstr "全割り込みを監視中"
 
-#: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/plugins/df.js:104
+#: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/plugins/df.js:101
 msgid "Monitoring all partitions"
 msgstr "全パーティションを監視中"
 
@@ -957,7 +952,7 @@ msgstr "サーバー インターフェース"
 
 #: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/plugins/network.js:62
 msgid "Server port"
-msgstr "サーバーのポート"
+msgstr "サーバー ポート"
 
 #: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/plugins/network.js:20
 msgid "Set the maximum size for datagrams sent over the network"
@@ -1109,9 +1104,7 @@ msgstr "NUT プラグインは、無停電電源装置についての情報を�
 msgid ""
 "The OLSRd plugin reads information about meshed networks from the txtinfo "
 "plugin of OLSRd."
-msgstr ""
-"OLSRd プラグインは、OLSRd の txtinfo プラグインからメッシュ・ネットワークに関"
-"する情報を読み取ります。"
+msgstr "OLSRd プラグインは、OLSRd の txtinfo プラグインからメッシュ・ネットワークに関する情報を読み取ります。"
 
 #: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/plugins/openvpn.js:8
 msgid ""
@@ -1124,9 +1117,7 @@ msgstr ""
 msgid ""
 "The SysLog plugin receives log messages from the daemon and dispatches them "
 "to syslog."
-msgstr ""
-"SysLog プラグインはデーモンからログメッセージを受信し、それらを syslog にディ"
-"スパッチします。"
+msgstr "SysLog プラグインはデーモンからログメッセージを受信し、それらを syslog にディスパッチします。"
 
 #: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/plugins/iptables.js:132
 msgid "The chain name must not contain spaces"
@@ -1305,9 +1296,7 @@ msgstr ""
 msgid ""
 "The splash leases plugin uses libuci to collect statistics about splash "
 "leases."
-msgstr ""
-"スプラッシュ・リース・プラグインは、libuci を使用してスプラッシュ・リースに関"
-"する統計を収集します。"
+msgstr "スプラッシュ・リース・プラグインは、libuci を使用してスプラッシュ・リースに関する統計を収集します。"
 
 #: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/plugins/tcpconns.js:7
 msgid ""
@@ -1497,12 +1486,12 @@ msgstr "cUrl プラグイン設定"
 msgid "none"
 msgstr "なし"
 
-#: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/plugins/df.js:107
+#: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/plugins/df.js:104
 msgid "one device"
 msgid_plural "%d devices"
 msgstr[0] "%d 個のデバイス"
 
-#: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/plugins/df.js:109
+#: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/plugins/df.js:106
 msgid "one filesystem type"
 msgid_plural "%d filesystem types"
 msgstr[0] "%d 個のファイルシステム・タイプ"
@@ -1512,7 +1501,7 @@ msgid "one local port"
 msgid_plural "%d local ports"
 msgstr[0] "%d 個のローカルポート"
 
-#: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/plugins/df.js:108
+#: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/plugins/df.js:105
 msgid "one mount"
 msgid_plural "%d mounts"
 msgstr[0] "%d 個のマウント"

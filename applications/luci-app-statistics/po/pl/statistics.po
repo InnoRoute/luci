@@ -3,7 +3,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"PO-Revision-Date: 2020-08-06 15:32+0000\n"
+"PO-Revision-Date: 2020-05-12 20:02+0000\n"
 "Last-Translator: Marcin Net <marcin.net@linux.pl>\n"
 "Language-Team: Polish <https://hosted.weblate.org/projects/openwrt/"
 "luciapplicationsstatistics/pl/>\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.2-dev\n"
+"X-Generator: Weblate 4.1-dev\n"
 
 #: applications/luci-app-statistics/htdocs/luci-static/resources/statistics/rrdtool/definitions/apcups.js:7
 #: applications/luci-app-statistics/root/usr/share/luci/statistics/plugins/apcups.json:2
@@ -371,13 +371,6 @@ msgstr "Opróżnienie pamięci podręcznej po"
 msgid "Forwarding between listen and server addresses"
 msgstr "Przekazywanie przez słuchacza na adres serwera"
 
-#: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/plugins/df.js:92
-msgid ""
-"Free space, reserved space and used space is reported as relative values"
-msgstr ""
-"Wolne miejsce, zarezerwowane miejsce i zajęte miejsce są podawane jako "
-"wartości względne"
-
 #: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/plugins/openvpn.js:21
 msgid "Gather compression statistics"
 msgstr "Zbieranie statystyk kompresji"
@@ -616,7 +609,7 @@ msgstr "Monitoruj porty zdalne"
 msgid "Monitoring %s and %s"
 msgstr "Monitorowanie %s i %s"
 
-#: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/plugins/df.js:106
+#: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/plugins/df.js:103
 msgid "Monitoring %s, %s, %s"
 msgstr "Monitorowanie %s, %s, %s"
 
@@ -676,7 +669,7 @@ msgstr[2] "Monitorowanie wszystkich innych czujników"
 msgid "Monitoring all disks"
 msgstr "Monitorowanie wszystkich dysków"
 
-#: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/plugins/df.js:106
+#: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/plugins/df.js:103
 msgid "Monitoring all except %s, %s, %s"
 msgstr "Monitorowanie wszystkich z wyjątkiem %s, %s, %s"
 
@@ -690,7 +683,7 @@ msgstr "Monitorowanie wszystkich interfejsów"
 msgid "Monitoring all interrupts"
 msgstr "Monitorowanie wszystkich przerwań"
 
-#: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/plugins/df.js:104
+#: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/plugins/df.js:101
 msgid "Monitoring all partitions"
 msgstr "Monitorowanie wszystkich partycji"
 
@@ -1538,14 +1531,14 @@ msgstr "Konfiguracja wtyczki Curl"
 msgid "none"
 msgstr "brak"
 
-#: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/plugins/df.js:107
+#: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/plugins/df.js:104
 msgid "one device"
 msgid_plural "%d devices"
 msgstr[0] "jedno urządzenie"
 msgstr[1] "%d urządzeń"
 msgstr[2] "inne urządzenia"
 
-#: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/plugins/df.js:109
+#: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/plugins/df.js:106
 msgid "one filesystem type"
 msgid_plural "%d filesystem types"
 msgstr[0] "jeden typ systemu plików"
@@ -1559,7 +1552,7 @@ msgstr[0] "jeden port lokalny"
 msgstr[1] "%d portów lokalnych"
 msgstr[2] "inne porty lokalne"
 
-#: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/plugins/df.js:108
+#: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/plugins/df.js:105
 msgid "one mount"
 msgid_plural "%d mounts"
 msgstr[0] "jeden zamontowany"

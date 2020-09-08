@@ -3,8 +3,9 @@
 		"title": "ACME certs",
 		"order": 50,
 		"action": {
-			"type": "view",
-			"path": "acme"
+			"type": "cbi",
+			"path": "acme",
+			"post": { "cbi.submit": true }
 		},
 		"depends": {
 			"acl": [ "luci-app-acme" ]

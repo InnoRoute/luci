@@ -14,13 +14,17 @@ msgstr ""
 msgid "-- instance type --"
 msgstr "-- példány típusa --"
 
-#: applications/luci-app-shadowsocks-libev/htdocs/luci-static/resources/shadowsocks-libev.js:225
+#: applications/luci-app-shadowsocks-libev/htdocs/luci-static/resources/shadowsocks-libev.js:212
 msgid "<hidden>"
 msgstr "<rejtett>"
 
 #: applications/luci-app-shadowsocks-libev/htdocs/luci-static/resources/view/shadowsocks-libev/instances.js:78
 msgid "Advanced Settings"
 msgstr "Speciális beállítások"
+
+#: applications/luci-app-shadowsocks-libev/htdocs/luci-static/resources/view/shadowsocks-libev/instances.js:88
+msgid "Bind address"
+msgstr "Cím kötése"
 
 #: applications/luci-app-shadowsocks-libev/htdocs/luci-static/resources/view/shadowsocks-libev/rules.js:88
 msgid "Bypass ss-redir for packets with dst address in this list"
@@ -84,7 +88,7 @@ msgstr "Cél beállításai"
 msgid "Disable"
 msgstr "Letiltás"
 
-#: applications/luci-app-shadowsocks-libev/htdocs/luci-static/resources/view/shadowsocks-libev/instances.js:139
+#: applications/luci-app-shadowsocks-libev/htdocs/luci-static/resources/view/shadowsocks-libev/instances.js:130
 msgid "Disabled"
 msgstr "Letiltva"
 
@@ -108,23 +112,23 @@ msgstr "Cél IP/hálózat továbbítás"
 msgid "Dst ip/net forward file"
 msgstr "Cél IP/hálózat továbbítás fájl"
 
-#: applications/luci-app-shadowsocks-libev/htdocs/luci-static/resources/shadowsocks-libev.js:195
+#: applications/luci-app-shadowsocks-libev/htdocs/luci-static/resources/shadowsocks-libev.js:182
 msgid "Enable SO_REUSEPORT"
 msgstr "SO_REUSEPORT engedélyezése"
 
-#: applications/luci-app-shadowsocks-libev/htdocs/luci-static/resources/shadowsocks-libev.js:193
+#: applications/luci-app-shadowsocks-libev/htdocs/luci-static/resources/shadowsocks-libev.js:180
 msgid "Enable TCP Fast Open"
 msgstr "TCP gyors megnyitás engedélyezése"
 
-#: applications/luci-app-shadowsocks-libev/htdocs/luci-static/resources/shadowsocks-libev.js:194
+#: applications/luci-app-shadowsocks-libev/htdocs/luci-static/resources/shadowsocks-libev.js:181
 msgid "Enable TCP_NODELAY"
 msgstr "TCP_NODELAY engedélyezése"
 
-#: applications/luci-app-shadowsocks-libev/htdocs/luci-static/resources/view/shadowsocks-libev/instances.js:132
+#: applications/luci-app-shadowsocks-libev/htdocs/luci-static/resources/view/shadowsocks-libev/instances.js:123
 msgid "Enable/Disable"
 msgstr "Engedélyezés vagy letiltás"
 
-#: applications/luci-app-shadowsocks-libev/htdocs/luci-static/resources/view/shadowsocks-libev/instances.js:142
+#: applications/luci-app-shadowsocks-libev/htdocs/luci-static/resources/view/shadowsocks-libev/instances.js:133
 msgid "Enabled"
 msgstr "Engedélyezve"
 
@@ -178,7 +182,7 @@ msgstr "Általános beállítások"
 msgid "Grant service list access to LuCI app shadowsocks-libev"
 msgstr ""
 
-#: applications/luci-app-shadowsocks-libev/htdocs/luci-static/resources/shadowsocks-libev.js:192
+#: applications/luci-app-shadowsocks-libev/htdocs/luci-static/resources/shadowsocks-libev.js:179
 msgid "IPv6 First"
 msgstr "IPv6 először"
 
@@ -196,7 +200,7 @@ msgstr "Kapcsolatok importálása"
 msgid "Ingress interfaces"
 msgstr "Bejövő csatolók"
 
-#: applications/luci-app-shadowsocks-libev/htdocs/luci-static/resources/shadowsocks-libev.js:249
+#: applications/luci-app-shadowsocks-libev/htdocs/luci-static/resources/shadowsocks-libev.js:236
 msgid "Install package"
 msgstr "Csomag telepítése"
 
@@ -215,29 +219,20 @@ msgstr ""
 "hogy engedélyezve legyen maga a példány és az a távoli kiszolgáló is, "
 "amelyre hivatkozik."
 
-#: applications/luci-app-shadowsocks-libev/htdocs/luci-static/resources/shadowsocks-libev.js:169
+#: applications/luci-app-shadowsocks-libev/htdocs/luci-static/resources/shadowsocks-libev.js:156
 msgid "Key (base64)"
 msgstr "Kulcs (Base64)"
-
-#: applications/luci-app-shadowsocks-libev/htdocs/luci-static/resources/view/shadowsocks-libev/instances.js:93
-msgid "Local IPv4 address"
-msgstr ""
-
-#: applications/luci-app-shadowsocks-libev/htdocs/luci-static/resources/view/shadowsocks-libev/instances.js:98
-msgid "Local IPv6 address"
-msgstr ""
 
 #: applications/luci-app-shadowsocks-libev/htdocs/luci-static/resources/view/shadowsocks-libev/instances.js:26
 #: applications/luci-app-shadowsocks-libev/root/usr/share/luci/menu.d/luci-app-shadowsocks-libev.json:14
 msgid "Local Instances"
 msgstr "Helyi példányok"
 
-#: applications/luci-app-shadowsocks-libev/htdocs/luci-static/resources/shadowsocks-libev.js:127
-#: applications/luci-app-shadowsocks-libev/htdocs/luci-static/resources/view/shadowsocks-libev/instances.js:88
+#: applications/luci-app-shadowsocks-libev/htdocs/luci-static/resources/shadowsocks-libev.js:114
 msgid "Local address"
 msgstr "Helyi cím"
 
-#: applications/luci-app-shadowsocks-libev/htdocs/luci-static/resources/shadowsocks-libev.js:131
+#: applications/luci-app-shadowsocks-libev/htdocs/luci-static/resources/shadowsocks-libev.js:118
 msgid "Local port"
 msgstr "Helyi port"
 
@@ -245,15 +240,15 @@ msgstr "Helyi port"
 msgid "Local-out default"
 msgstr "Helyi-ki alapértelmezett"
 
-#: applications/luci-app-shadowsocks-libev/htdocs/luci-static/resources/shadowsocks-libev.js:185
+#: applications/luci-app-shadowsocks-libev/htdocs/luci-static/resources/shadowsocks-libev.js:172
 msgid "MTU"
 msgstr "MTU"
 
-#: applications/luci-app-shadowsocks-libev/htdocs/luci-static/resources/shadowsocks-libev.js:160
+#: applications/luci-app-shadowsocks-libev/htdocs/luci-static/resources/shadowsocks-libev.js:147
 msgid "Method"
 msgstr "Módszer"
 
-#: applications/luci-app-shadowsocks-libev/htdocs/luci-static/resources/shadowsocks-libev.js:180
+#: applications/luci-app-shadowsocks-libev/htdocs/luci-static/resources/shadowsocks-libev.js:167
 msgid "Mode of operation"
 msgstr "Művelet módja"
 
@@ -282,11 +277,11 @@ msgstr ""
 "Szabályok alkalmazása csak az ezekből a hálózati csatolókból érkező "
 "csomagokon"
 
-#: applications/luci-app-shadowsocks-libev/htdocs/luci-static/resources/view/shadowsocks-libev/instances.js:115
+#: applications/luci-app-shadowsocks-libev/htdocs/luci-static/resources/view/shadowsocks-libev/instances.js:106
 msgid "Overview"
 msgstr "Áttekintés"
 
-#: applications/luci-app-shadowsocks-libev/htdocs/luci-static/resources/shadowsocks-libev.js:248
+#: applications/luci-app-shadowsocks-libev/htdocs/luci-static/resources/shadowsocks-libev.js:235
 msgid "Package is not installed"
 msgstr "A csomag nincs telepítve"
 
@@ -296,19 +291,19 @@ msgstr ""
 "Átadja a további argumentumokat az iptables részére. Használja "
 "körültekintően!"
 
-#: applications/luci-app-shadowsocks-libev/htdocs/luci-static/resources/shadowsocks-libev.js:165
+#: applications/luci-app-shadowsocks-libev/htdocs/luci-static/resources/shadowsocks-libev.js:152
 msgid "Password"
 msgstr "Jelszó"
 
-#: applications/luci-app-shadowsocks-libev/htdocs/luci-static/resources/shadowsocks-libev.js:175
+#: applications/luci-app-shadowsocks-libev/htdocs/luci-static/resources/shadowsocks-libev.js:162
 msgid "Plugin"
 msgstr "Bővítmény"
 
-#: applications/luci-app-shadowsocks-libev/htdocs/luci-static/resources/shadowsocks-libev.js:177
+#: applications/luci-app-shadowsocks-libev/htdocs/luci-static/resources/shadowsocks-libev.js:164
 msgid "Plugin Options"
 msgstr "Bővítmény beállításai"
 
-#: applications/luci-app-shadowsocks-libev/htdocs/luci-static/resources/shadowsocks-libev.js:192
+#: applications/luci-app-shadowsocks-libev/htdocs/luci-static/resources/shadowsocks-libev.js:179
 msgid "Prefer IPv6 addresses when resolving names"
 msgstr "IPv6-címek előnyben részesítése a nevek feloldásakor"
 
@@ -322,23 +317,23 @@ msgstr "Átirányítási szabályok"
 msgid "Remote Servers"
 msgstr "Távoli kiszolgálók"
 
-#: applications/luci-app-shadowsocks-libev/htdocs/luci-static/resources/shadowsocks-libev.js:125
+#: applications/luci-app-shadowsocks-libev/htdocs/luci-static/resources/shadowsocks-libev.js:112
 msgid "Remote server"
 msgstr "Távoli kiszolgáló"
 
-#: applications/luci-app-shadowsocks-libev/htdocs/luci-static/resources/shadowsocks-libev.js:189
+#: applications/luci-app-shadowsocks-libev/htdocs/luci-static/resources/shadowsocks-libev.js:176
 msgid "Run as"
 msgstr "Futtatás mint"
 
-#: applications/luci-app-shadowsocks-libev/htdocs/luci-static/resources/view/shadowsocks-libev/instances.js:127
+#: applications/luci-app-shadowsocks-libev/htdocs/luci-static/resources/view/shadowsocks-libev/instances.js:118
 msgid "Running"
 msgstr "Fut"
 
-#: applications/luci-app-shadowsocks-libev/htdocs/luci-static/resources/shadowsocks-libev.js:152
+#: applications/luci-app-shadowsocks-libev/htdocs/luci-static/resources/shadowsocks-libev.js:139
 msgid "Server"
 msgstr "Kiszolgáló"
 
-#: applications/luci-app-shadowsocks-libev/htdocs/luci-static/resources/shadowsocks-libev.js:156
+#: applications/luci-app-shadowsocks-libev/htdocs/luci-static/resources/shadowsocks-libev.js:143
 msgid "Server port"
 msgstr "Kiszolgáló port"
 
@@ -366,31 +361,23 @@ msgstr "Forrás IP/hálózat célellenőrzés"
 msgid "Src ip/net forward"
 msgstr "Forrás IP/hálózat továbbítás"
 
-#: applications/luci-app-shadowsocks-libev/htdocs/luci-static/resources/view/shadowsocks-libev/instances.js:94
-msgid "The IPv4 address ss-server will initiate IPv4 connections from"
-msgstr ""
-
-#: applications/luci-app-shadowsocks-libev/htdocs/luci-static/resources/view/shadowsocks-libev/instances.js:99
-msgid "The IPv6 address ss-server will initiate IPv6 connections from"
-msgstr ""
-
 #: applications/luci-app-shadowsocks-libev/htdocs/luci-static/resources/view/shadowsocks-libev/instances.js:89
-msgid "The address ss-server will initiate connections from"
-msgstr ""
+msgid "The address ss-server will initiate connection from"
+msgstr "Az a cím, amelyről az ss-kiszolgáló elő fogja készíteni a kapcsolatot"
 
-#: applications/luci-app-shadowsocks-libev/htdocs/luci-static/resources/view/shadowsocks-libev/instances.js:107
+#: applications/luci-app-shadowsocks-libev/htdocs/luci-static/resources/view/shadowsocks-libev/instances.js:98
 msgid "The address ss-tunnel will forward traffic to"
 msgstr "A cél ss-alagút továbbítani fogja a forgalmat erre:"
 
-#: applications/luci-app-shadowsocks-libev/htdocs/luci-static/resources/shadowsocks-libev.js:187
+#: applications/luci-app-shadowsocks-libev/htdocs/luci-static/resources/shadowsocks-libev.js:174
 msgid "Timeout (sec)"
 msgstr "Időkorlát (másodperc)"
 
-#: applications/luci-app-shadowsocks-libev/htdocs/luci-static/resources/view/shadowsocks-libev/instances.js:106
+#: applications/luci-app-shadowsocks-libev/htdocs/luci-static/resources/view/shadowsocks-libev/instances.js:97
 msgid "Tunnel address"
 msgstr "Alagút címe"
 
-#: applications/luci-app-shadowsocks-libev/htdocs/luci-static/resources/shadowsocks-libev.js:191
+#: applications/luci-app-shadowsocks-libev/htdocs/luci-static/resources/shadowsocks-libev.js:178
 msgid "Verbose"
 msgstr "Bőbeszédű"
 
@@ -401,10 +388,3 @@ msgstr "ss-átirányítás TCP-hez"
 #: applications/luci-app-shadowsocks-libev/htdocs/luci-static/resources/view/shadowsocks-libev/rules.js:55
 msgid "ss-redir for UDP"
 msgstr "ss-átirányítás UDP-hez"
-
-#~ msgid "Bind address"
-#~ msgstr "Cím kötése"
-
-#~ msgid "The address ss-server will initiate connection from"
-#~ msgstr ""
-#~ "Az a cím, amelyről az ss-kiszolgáló elő fogja készíteni a kapcsolatot"

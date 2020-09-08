@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: LuCI: ddns\n"
 "POT-Creation-Date: 2017-10-17 21:00+0300\n"
-"PO-Revision-Date: 2020-07-24 09:24+0000\n"
-"Last-Translator: Anton Kikin <a.a.kikin@gmail.com>\n"
+"PO-Revision-Date: 2020-07-02 23:41+0000\n"
+"Last-Translator: Artem <KovalevArtem.ru@gmail.com>\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/openwrt/"
 "luciapplicationsddns/ru/>\n"
 "Language: ru\n"
@@ -383,7 +383,7 @@ msgstr "Информация"
 #: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:548
 #: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:568
 msgid "Insert a Update Script OR a Update URL"
-msgstr "Укажите скрипт обновления или URL обновления"
+msgstr ""
 
 #: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:289
 msgid ""
@@ -521,7 +521,7 @@ msgstr "Не работает"
 
 #: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:807
 msgid "Notice"
-msgstr "Сообщение"
+msgstr "Заметка"
 
 #: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:1002
 msgid "Number of last lines stored in log files"

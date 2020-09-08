@@ -515,9 +515,8 @@ return baseclass.extend({
 			if (!gopts.rrasingle)
 				_args.push('GPRINT:%s_min:MIN:\tMin\\: %s'.format(source.sname, numfmt));
 
-			/* don't include AVERAGE if noavg option is set */
-			if (!source.noavg)
-				_args.push('GPRINT:%s_avg:AVERAGE:\tAvg\\: %s'.format(source.sname, numfmt));
+			/* always include AVERAGE */
+			_args.push('GPRINT:%s_avg:AVERAGE:\tAvg\\: %s'.format(source.sname, numfmt));
 
 			/* don't include MAX if rrasingle is enabled */
 			if (!gopts.rrasingle)
@@ -606,7 +605,6 @@ return baseclass.extend({
 						overlay: dopts.overlay || false,
 						transform_rpn: dopts.transform_rpn || '0,+',
 						noarea: dopts.noarea || false,
-						noavg: dopts.noavg || false,
 						title: dopts.title || null,
 						weight: dopts.weight || (dopts.negweight ? -+data_instances[j] : null) || (dopts.posweight ? +data_instances[j] : null) || null,
 						ds: data_sources[k],

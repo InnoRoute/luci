@@ -23,10 +23,6 @@ msgstr ""
 msgid "AdGuard (Standard)"
 msgstr ""
 
-#: applications/luci-app-https-dns-proxy/luasrc/https-dns-proxy/providers/com.alidns.dns.lua:3
-msgid "AliDNS"
-msgstr ""
-
 #: applications/luci-app-https-dns-proxy/luasrc/https-dns-proxy/providers/ca.cira.canadianshield.family.lua:3
 msgid "CIRA Canadian Shield (Family)"
 msgstr ""
@@ -73,10 +69,6 @@ msgstr ""
 
 #: applications/luci-app-https-dns-proxy/luasrc/https-dns-proxy/providers.disabled/sb.dns.lua:3
 msgid "DNS.SB"
-msgstr ""
-
-#: applications/luci-app-https-dns-proxy/luasrc/https-dns-proxy/providers/pub.doh.lua:3
-msgid "DNSPod.cn Public DNS"
 msgstr ""
 
 #: applications/luci-app-https-dns-proxy/luasrc/https-dns-proxy/providers.disabled/ch.digitale-gesellschaft.dns.lua:3
@@ -129,14 +121,6 @@ msgstr "جار التحميل"
 
 #: applications/luci-app-https-dns-proxy/luasrc/https-dns-proxy/providers/cz.nic.odvr.lua:3
 msgid "ODVR (nic.cz)"
-msgstr ""
-
-#: applications/luci-app-https-dns-proxy/luasrc/https-dns-proxy/providers/com.opendns.doh.lua:3
-msgid "OpenDNS"
-msgstr ""
-
-#: applications/luci-app-https-dns-proxy/luasrc/https-dns-proxy/providers/com.opendns.familyshield.doh.lua:3
-msgid "OpenDNS (Family Shield)"
 msgstr ""
 
 #: applications/luci-app-https-dns-proxy/luasrc/model/cbi/https-dns-proxy.lua:177

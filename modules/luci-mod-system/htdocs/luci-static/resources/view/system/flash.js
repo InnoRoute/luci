@@ -385,21 +385,16 @@ return view.extend({
 		o.onclick = L.bind(this.handleRestore, this);
 
 
-		var mtdblocks = [];
-		procmtd.split(/\n/).forEach(function(ln) {
-			var match = ln.match(/^mtd(\d+): .+ "(.+?)"$/);
-			if (match)
-				mtdblocks.push(match[1], match[2]);
-		});
-
-		if (mtdblocks.length) {
+		if (procmtd.length) {
 			o = s.option(form.SectionValue, 'actions', form.NamedSection, 'actions', 'actions', _('Save mtdblock contents'), _('Click "Save mtdblock" to download specified mtdblock file. (NOTE: THIS FEATURE IS FOR PROFESSIONALS! )'));
 			ss = o.subsection;
 
 			o = ss.option(form.ListValue, 'mtdselect', _('Choose mtdblock'));
-
-			for (var i = 0; i < mtdblocks.length; i += 2)
-				o.value(mtdblocks[i], mtdblocks[i+1]);
+			procmtd.split(/\n/).forEach(function(ln) {
+				var match = ln.match(/^mtd(\d+): .+ "(.+?)"$/);
+				if (match)
+					o.value(match[1], match[2]);
+			});
 
 			o = ss.option(form.Button, 'mtddownload', _('Download mtdblock'));
 			o.inputstyle = 'action important';

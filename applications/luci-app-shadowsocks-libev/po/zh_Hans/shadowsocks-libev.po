@@ -15,13 +15,17 @@ msgstr ""
 msgid "-- instance type --"
 msgstr "-- 实例类型 --"
 
-#: applications/luci-app-shadowsocks-libev/htdocs/luci-static/resources/shadowsocks-libev.js:225
+#: applications/luci-app-shadowsocks-libev/htdocs/luci-static/resources/shadowsocks-libev.js:212
 msgid "<hidden>"
 msgstr "<已隐藏>"
 
 #: applications/luci-app-shadowsocks-libev/htdocs/luci-static/resources/view/shadowsocks-libev/instances.js:78
 msgid "Advanced Settings"
 msgstr "高级设置"
+
+#: applications/luci-app-shadowsocks-libev/htdocs/luci-static/resources/view/shadowsocks-libev/instances.js:88
+msgid "Bind address"
+msgstr "绑定地址"
 
 #: applications/luci-app-shadowsocks-libev/htdocs/luci-static/resources/view/shadowsocks-libev/rules.js:88
 msgid "Bypass ss-redir for packets with dst address in this list"
@@ -75,7 +79,7 @@ msgstr "目的地址设定"
 msgid "Disable"
 msgstr "禁用"
 
-#: applications/luci-app-shadowsocks-libev/htdocs/luci-static/resources/view/shadowsocks-libev/instances.js:139
+#: applications/luci-app-shadowsocks-libev/htdocs/luci-static/resources/view/shadowsocks-libev/instances.js:130
 msgid "Disabled"
 msgstr "已禁用"
 
@@ -99,23 +103,23 @@ msgstr "转发"
 msgid "Dst ip/net forward file"
 msgstr "转发（文件）"
 
-#: applications/luci-app-shadowsocks-libev/htdocs/luci-static/resources/shadowsocks-libev.js:195
+#: applications/luci-app-shadowsocks-libev/htdocs/luci-static/resources/shadowsocks-libev.js:182
 msgid "Enable SO_REUSEPORT"
 msgstr "启用SO_REUSEPORT"
 
-#: applications/luci-app-shadowsocks-libev/htdocs/luci-static/resources/shadowsocks-libev.js:193
+#: applications/luci-app-shadowsocks-libev/htdocs/luci-static/resources/shadowsocks-libev.js:180
 msgid "Enable TCP Fast Open"
 msgstr "启用TCP Fast Open"
 
-#: applications/luci-app-shadowsocks-libev/htdocs/luci-static/resources/shadowsocks-libev.js:194
+#: applications/luci-app-shadowsocks-libev/htdocs/luci-static/resources/shadowsocks-libev.js:181
 msgid "Enable TCP_NODELAY"
 msgstr "启用TCP_NODELAY"
 
-#: applications/luci-app-shadowsocks-libev/htdocs/luci-static/resources/view/shadowsocks-libev/instances.js:132
+#: applications/luci-app-shadowsocks-libev/htdocs/luci-static/resources/view/shadowsocks-libev/instances.js:123
 msgid "Enable/Disable"
 msgstr "启用/禁用"
 
-#: applications/luci-app-shadowsocks-libev/htdocs/luci-static/resources/view/shadowsocks-libev/instances.js:142
+#: applications/luci-app-shadowsocks-libev/htdocs/luci-static/resources/view/shadowsocks-libev/instances.js:133
 msgid "Enabled"
 msgstr "已启用"
 
@@ -159,7 +163,7 @@ msgstr "常规设置"
 msgid "Grant service list access to LuCI app shadowsocks-libev"
 msgstr ""
 
-#: applications/luci-app-shadowsocks-libev/htdocs/luci-static/resources/shadowsocks-libev.js:192
+#: applications/luci-app-shadowsocks-libev/htdocs/luci-static/resources/shadowsocks-libev.js:179
 msgid "IPv6 First"
 msgstr "IPv6优先"
 
@@ -177,7 +181,7 @@ msgstr "导入链接"
 msgid "Ingress interfaces"
 msgstr "入口网卡"
 
-#: applications/luci-app-shadowsocks-libev/htdocs/luci-static/resources/shadowsocks-libev.js:249
+#: applications/luci-app-shadowsocks-libev/htdocs/luci-static/resources/shadowsocks-libev.js:236
 msgid "Install package"
 msgstr "安装软件包"
 
@@ -195,29 +199,20 @@ msgstr ""
 "tunnel、ss-server等。请注意，实际启用一个实例要求实例本身及所关联的远端服务器"
 "都是启用状态。"
 
-#: applications/luci-app-shadowsocks-libev/htdocs/luci-static/resources/shadowsocks-libev.js:169
+#: applications/luci-app-shadowsocks-libev/htdocs/luci-static/resources/shadowsocks-libev.js:156
 msgid "Key (base64)"
 msgstr "密钥（base64）"
-
-#: applications/luci-app-shadowsocks-libev/htdocs/luci-static/resources/view/shadowsocks-libev/instances.js:93
-msgid "Local IPv4 address"
-msgstr ""
-
-#: applications/luci-app-shadowsocks-libev/htdocs/luci-static/resources/view/shadowsocks-libev/instances.js:98
-msgid "Local IPv6 address"
-msgstr ""
 
 #: applications/luci-app-shadowsocks-libev/htdocs/luci-static/resources/view/shadowsocks-libev/instances.js:26
 #: applications/luci-app-shadowsocks-libev/root/usr/share/luci/menu.d/luci-app-shadowsocks-libev.json:14
 msgid "Local Instances"
 msgstr "本地实例"
 
-#: applications/luci-app-shadowsocks-libev/htdocs/luci-static/resources/shadowsocks-libev.js:127
-#: applications/luci-app-shadowsocks-libev/htdocs/luci-static/resources/view/shadowsocks-libev/instances.js:88
+#: applications/luci-app-shadowsocks-libev/htdocs/luci-static/resources/shadowsocks-libev.js:114
 msgid "Local address"
 msgstr "监听地址"
 
-#: applications/luci-app-shadowsocks-libev/htdocs/luci-static/resources/shadowsocks-libev.js:131
+#: applications/luci-app-shadowsocks-libev/htdocs/luci-static/resources/shadowsocks-libev.js:118
 msgid "Local port"
 msgstr "监听端口"
 
@@ -225,15 +220,15 @@ msgstr "监听端口"
 msgid "Local-out default"
 msgstr "本地报文默认行为"
 
-#: applications/luci-app-shadowsocks-libev/htdocs/luci-static/resources/shadowsocks-libev.js:185
+#: applications/luci-app-shadowsocks-libev/htdocs/luci-static/resources/shadowsocks-libev.js:172
 msgid "MTU"
 msgstr "MTU"
 
-#: applications/luci-app-shadowsocks-libev/htdocs/luci-static/resources/shadowsocks-libev.js:160
+#: applications/luci-app-shadowsocks-libev/htdocs/luci-static/resources/shadowsocks-libev.js:147
 msgid "Method"
 msgstr "加密方法"
 
-#: applications/luci-app-shadowsocks-libev/htdocs/luci-static/resources/shadowsocks-libev.js:180
+#: applications/luci-app-shadowsocks-libev/htdocs/luci-static/resources/shadowsocks-libev.js:167
 msgid "Mode of operation"
 msgstr "工作模式"
 
@@ -256,11 +251,11 @@ msgstr ""
 msgid "Only apply rules on packets from these network interfaces"
 msgstr "仅对来自指定网卡的报文应用规则"
 
-#: applications/luci-app-shadowsocks-libev/htdocs/luci-static/resources/view/shadowsocks-libev/instances.js:115
+#: applications/luci-app-shadowsocks-libev/htdocs/luci-static/resources/view/shadowsocks-libev/instances.js:106
 msgid "Overview"
 msgstr "概览"
 
-#: applications/luci-app-shadowsocks-libev/htdocs/luci-static/resources/shadowsocks-libev.js:248
+#: applications/luci-app-shadowsocks-libev/htdocs/luci-static/resources/shadowsocks-libev.js:235
 msgid "Package is not installed"
 msgstr "依赖包未安装"
 
@@ -268,19 +263,19 @@ msgstr "依赖包未安装"
 msgid "Passes additional arguments to iptables. Use with care!"
 msgstr "传递到 iptables 的额外参数。小心使用！"
 
-#: applications/luci-app-shadowsocks-libev/htdocs/luci-static/resources/shadowsocks-libev.js:165
+#: applications/luci-app-shadowsocks-libev/htdocs/luci-static/resources/shadowsocks-libev.js:152
 msgid "Password"
 msgstr "密码"
 
-#: applications/luci-app-shadowsocks-libev/htdocs/luci-static/resources/shadowsocks-libev.js:175
+#: applications/luci-app-shadowsocks-libev/htdocs/luci-static/resources/shadowsocks-libev.js:162
 msgid "Plugin"
 msgstr "启用插件"
 
-#: applications/luci-app-shadowsocks-libev/htdocs/luci-static/resources/shadowsocks-libev.js:177
+#: applications/luci-app-shadowsocks-libev/htdocs/luci-static/resources/shadowsocks-libev.js:164
 msgid "Plugin Options"
 msgstr "插件选项"
 
-#: applications/luci-app-shadowsocks-libev/htdocs/luci-static/resources/shadowsocks-libev.js:192
+#: applications/luci-app-shadowsocks-libev/htdocs/luci-static/resources/shadowsocks-libev.js:179
 msgid "Prefer IPv6 addresses when resolving names"
 msgstr "名字解析时优先取用IPv6地址"
 
@@ -294,23 +289,23 @@ msgstr "转发规则"
 msgid "Remote Servers"
 msgstr "远端服务器"
 
-#: applications/luci-app-shadowsocks-libev/htdocs/luci-static/resources/shadowsocks-libev.js:125
+#: applications/luci-app-shadowsocks-libev/htdocs/luci-static/resources/shadowsocks-libev.js:112
 msgid "Remote server"
 msgstr "服务器"
 
-#: applications/luci-app-shadowsocks-libev/htdocs/luci-static/resources/shadowsocks-libev.js:189
+#: applications/luci-app-shadowsocks-libev/htdocs/luci-static/resources/shadowsocks-libev.js:176
 msgid "Run as"
 msgstr "运行时用户"
 
-#: applications/luci-app-shadowsocks-libev/htdocs/luci-static/resources/view/shadowsocks-libev/instances.js:127
+#: applications/luci-app-shadowsocks-libev/htdocs/luci-static/resources/view/shadowsocks-libev/instances.js:118
 msgid "Running"
 msgstr "运行中"
 
-#: applications/luci-app-shadowsocks-libev/htdocs/luci-static/resources/shadowsocks-libev.js:152
+#: applications/luci-app-shadowsocks-libev/htdocs/luci-static/resources/shadowsocks-libev.js:139
 msgid "Server"
 msgstr "服务器"
 
-#: applications/luci-app-shadowsocks-libev/htdocs/luci-static/resources/shadowsocks-libev.js:156
+#: applications/luci-app-shadowsocks-libev/htdocs/luci-static/resources/shadowsocks-libev.js:143
 msgid "Server port"
 msgstr "服务器端口"
 
@@ -338,31 +333,23 @@ msgstr "继续匹配目的地址"
 msgid "Src ip/net forward"
 msgstr "转发"
 
-#: applications/luci-app-shadowsocks-libev/htdocs/luci-static/resources/view/shadowsocks-libev/instances.js:94
-msgid "The IPv4 address ss-server will initiate IPv4 connections from"
-msgstr ""
-
-#: applications/luci-app-shadowsocks-libev/htdocs/luci-static/resources/view/shadowsocks-libev/instances.js:99
-msgid "The IPv6 address ss-server will initiate IPv6 connections from"
-msgstr ""
-
 #: applications/luci-app-shadowsocks-libev/htdocs/luci-static/resources/view/shadowsocks-libev/instances.js:89
-msgid "The address ss-server will initiate connections from"
-msgstr ""
+msgid "The address ss-server will initiate connection from"
+msgstr "ss-server建立连接时使用的源地址"
 
-#: applications/luci-app-shadowsocks-libev/htdocs/luci-static/resources/view/shadowsocks-libev/instances.js:107
+#: applications/luci-app-shadowsocks-libev/htdocs/luci-static/resources/view/shadowsocks-libev/instances.js:98
 msgid "The address ss-tunnel will forward traffic to"
 msgstr "ss-tunnel所建立隧道的对端地址"
 
-#: applications/luci-app-shadowsocks-libev/htdocs/luci-static/resources/shadowsocks-libev.js:187
+#: applications/luci-app-shadowsocks-libev/htdocs/luci-static/resources/shadowsocks-libev.js:174
 msgid "Timeout (sec)"
 msgstr "超时时间（秒）"
 
-#: applications/luci-app-shadowsocks-libev/htdocs/luci-static/resources/view/shadowsocks-libev/instances.js:106
+#: applications/luci-app-shadowsocks-libev/htdocs/luci-static/resources/view/shadowsocks-libev/instances.js:97
 msgid "Tunnel address"
 msgstr "隧道对端地址"
 
-#: applications/luci-app-shadowsocks-libev/htdocs/luci-static/resources/shadowsocks-libev.js:191
+#: applications/luci-app-shadowsocks-libev/htdocs/luci-static/resources/shadowsocks-libev.js:178
 msgid "Verbose"
 msgstr "记录详细日志"
 
@@ -373,12 +360,6 @@ msgstr "用于TCP转发的ss-redir"
 #: applications/luci-app-shadowsocks-libev/htdocs/luci-static/resources/view/shadowsocks-libev/rules.js:55
 msgid "ss-redir for UDP"
 msgstr "用于UDP转发的ss-redir"
-
-#~ msgid "Bind address"
-#~ msgstr "绑定地址"
-
-#~ msgid "The address ss-server will initiate connection from"
-#~ msgstr "ss-server建立连接时使用的源地址"
 
 #~ msgid "Add"
 #~ msgstr "添加"
